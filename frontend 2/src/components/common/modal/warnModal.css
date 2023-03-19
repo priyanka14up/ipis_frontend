@@ -1,0 +1,60 @@
+.warnModalCard{
+    width: 100%;
+    padding: 20px;
+}
+.warnPrimryTxt{
+text-transform: capitalize;
+text-align: center;
+font-size: 18px;
+}
+.secondary-text{
+    text-transform: inherit;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.warnTxt{
+    display: flex;
+    justify-content: center;
+}
+.warnButton{
+    display: flex;
+    justify-content: center;
+}
+/* .confirmBtn{
+    text-align: center;
+} */
+.button-modal{
+    text-align: center;
+    
+}
+.warningIconModal{
+ font-size: 4.5rem !important;
+ fill: #f48136 !important;
+ 
+}
+.warnImage{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.primaryModal{
+    margin-bottom: 3px;
+}
+.cancelModal{
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    background-color: #d71e1ee0 !important;
+    color: white !important;
+}
+.confirmModal{
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    background-color: #118111e0 !important;
+    color: white !important;
+}

@@ -1,0 +1,95 @@
+/* .MuiRadio-colorSecondary.Mui-checked {
+    color: black !important;
+} */
+.Sed{
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+}
+.Ethernet{
+    font-family: roboto !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    display: flex;
+    align-items: center;
+    color: #222222;
+    padding-bottom: 11.35%;
+}
+.PrivateRadioButtonIcon-root-5{
+    color: #033733;
+}
+
+.radioButtons span.MuiIconButton-label{
+font-weight: 500;
+font-size: 24px !important;
+line-height: 14px;
+align-items: center;
+color: #222222 !important;
+order: 1;
+font-family: "roboto";
+margin: 5% 4px;
+}
+
+
+.btn_continue{
+    background-color:#009688 !important;
+    width: 120px;
+    font-family: roboto !important;
+    align-items: center;
+}
+.btn_continue .MuiButton-label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 2px 0px;
+}
+.btn_continue .MuiButton-label img {
+    margin-left: 8px;
+}
+.btn_setConfig{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 180px;
+    height: 30px;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.btn_setConfig .MuiButton-label {
+    font-family: roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.f-14 .MuiFormControlLabel-label{
+    font-size: 14px !important;
+}
+.ethernetDevice{
+    font-Size: 14px !important;
+    padding-bottom: 10px ;
+    font-weight: 500 !important;
+    font-family: roboto !important;
+    line-height: 16px !important;
+    font-style: normal ;
+    color: #222222 
+}
+.padding10{
+    padding: 30px;
+}
+
+.borderR{
+    border-radius: 10px !important;
+}

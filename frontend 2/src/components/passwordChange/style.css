@@ -1,0 +1,257 @@
+.wlcm {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.passwdHlw {
+    font-weight: bold !important;
+    font-size: 20px !important;
+    font-family: 'Roboto' !important;
+    color: #222222;
+}
+
+.box {
+    font-family: 'Roboto';
+    padding-top: 5px;
+
+}
+
+.confmIcon {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.my-swal {
+    z-index: 10000 !important;
+}
+
+.bttn {
+    color: #009688 !important;
+
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    position: absolute;
+
+    background: #FFFFFF;
+    border: 1px solid #009688 !important;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.img {
+    box-sizing: 50px;
+}
+
+.CloseBtn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.card-changePasword {
+    min-height: 38vh;
+    width: 42vw;
+    outline: none;
+}
+
+.btn-Sec-changePass {
+    margin-top: 28px;
+}
+
+.card-ConfirmPassword {
+    min-height: 38vh;
+    width: 46vw;
+    position: static;
+    outline: none;
+}
+
+.imgUser {
+    height: 240px;
+    /* padding-top: 40px; */
+}
+
+.lblenterNewPass {
+    font-weight: bold;
+    font-size: 20px !important;
+    font-family: "Roboto";
+    color: #222222 !important
+}
+
+.submitBUttonCss {
+    margin: 10px !important;
+    background: #009688 !important;
+    letter-spacing: 1px;
+}
+
+.confirmPasswordModal {
+    left: 25% !important;
+    top: 21% !important;
+}
+
+
+
+.optiplayHeight {
+    height: 120px;
+}
+
+.cursorPointCss {
+    cursor: pointer;
+}
+
+.Passwordcss {
+    font-size: 16px !important;
+    line-height: 30px !important;
+    color: #222222
+}
+
+.paddingLeft10 {
+    padding-left: 10px;
+}
+
+.redColor {
+    color: red !important;
+}
+
+.textAlign {
+    text-align: center !important;
+}
+
+.padding50 {
+    padding-left: 50px;
+}
+
+.saveButton {
+    margin: 10px !important;
+    background: #009688 !important;
+    width: 100px;
+    margin-left: 5px !important;
+    margin-right: 20px !important;
+}
+
+.fontSize12 {
+    font-size: 12px !important;
+}
+
+.indexModal {
+    left: 28% !important;
+    top: 25% !important;
+}
+
+.height120 {
+    height: 120px;
+}
+
+
+
+.marginTop {
+    margin-top: 20px !important;
+}
+
+.textclass {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #222222;
+}
+
+.maybeLaterButton {
+    margin: 10px !important;
+    color: #009688 !important;
+    border-color: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 5px !important;
+}
+
+.textTransform {
+    text-transform: capitalize !important;
+}
+
+.box .MuiOutlinedInput-notchedOutline {
+    border-color: #033733 !important;
+}
+
+/* Modified CSS */
+
+.buttonGrid {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.container-content {
+    margin-bottom: 36px;
+}
+
+.greet {
+    margin-bottom: 22px;
+}
+
+.greeting-message {
+    margin-top: 21px !important;
+}
+
+.change-password {
+    padding: 12px;
+}
+
+.saveButtonn {
+    background: #009688 !important;
+    width: 100px;
+    margin-left: 5px !important;
+    margin-right: 20px !important;
+}
+
+.confirm-password{
+    padding: 12px;
+}
+
+.button-grid{
+    margin-top: 36px !important;
+}
+
+.margins{
+    margin-bottom: 28px;
+}
+
+.displayFlexCss {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.close-icon{
+    display: flex;
+    justify-content: end;
+}
+
+.userImg {
+    height: 100%;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.icons {
+    font-size: 1.21rem !important;
+    padding-right: 5px !important;
+
+}
+
+.text-field-border1 .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #033733 !important;
+}
+
+.btn-span{
+    font-size: 12px !important;
+}
+.MuiFormHelperText-contained{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}

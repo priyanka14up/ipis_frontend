@@ -1,0 +1,91 @@
+.MuiTableCell-root {
+  padding: 5px !important;
+}
+.iconColor {
+  color: #808080;
+  height: 12px !important;
+}
+.rowStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 20px;
+  background: #fbfbfb;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  font-family: "Roboto" !important;
+  background: #033733 !important;
+  color: #ffffff !important;
+}
+
+.usr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  font-family: "Roboto" !important;
+}
+
+.edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.bttnUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: absolute;
+
+  background: #009688;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.try {
+  height: inherit;
+}
+.tblRow {
+  background-color: #d3d3d3;
+  color: black;
+}

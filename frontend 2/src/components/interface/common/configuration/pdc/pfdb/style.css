@@ -1,0 +1,370 @@
+.text1{
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding-left: 19px;
+  padding-bottom: 11px;
+}
+.txt2{
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  padding-left: 19px;
+  padding-bottom: 13px;
+}
+
+.savebtn{
+  padding: 5px 15px!important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  margin-top: 70px !important;
+  color:#FFFFFF!important;
+  width: 150px;
+  height: 30px;
+  margin-right: 20px!important;
+}
+
+.canclebtn{
+  padding: 5px 15px!important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: 70px !important;
+  color: #009688!important;
+  width: 150px;
+  height: 30px;
+  margin-right: 20px!important;
+}
+.fontbtn{
+  font-size: "12px";
+  font-family:'Roboto';
+}
+.btnicon{
+  font-size: 1.3em!important;
+  padding-right: 2px;
+}
+
+
+
+
+.pdbCard {
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+}
+.pdbHed {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222 !important;
+  margin-bottom: 15px !important;
+}
+.pdbSubHed {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 30px;
+  color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right:20px;
+}
+.pdbIpGrid {
+  display: flex;
+  justify-content: flex-start;
+}
+.pdbIpGrid .MuiFormControl-root {
+  width: 100%;
+}
+.pdbIpGrid .MuiInputBase-root {
+  width: 100%;
+}
+.ipboxstyle{
+  background: #FFFFFF;
+}
+.ipboxstyle .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+.ipboxstyle .MuiOutlinedInput-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+}
+.ivdBoxstyle {
+  font-family: Roboto;
+  border-radius: 5px;
+  width: 100%;
+}
+.ivdBoxstyle .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+.ivdBoxstyle .MuiOutlinedInput-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding: 12px 7px !important;
+}
+.selectfield {
+  width: 100%;
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  border: 1px solid #033733;
+  border-radius: 5px;
+}
+.selectfieldPlt {
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  border: 1px solid #033733;
+  border-radius: 5px;
+  width:100%
+}
+.coachSaveBtn{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.coachCancelBtn {
+  width: 100%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important; 
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+}
+.coachDeleteBtn {
+  width: 100%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important; 
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.ml-18{
+  margin-left: 18px !important;
+}
+.portButton{
+  border: 1px solid #222222;
+  display: inline-table;
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.portstyle{
+  position: static !important;
+  height: 10px;
+  width: 58px;
+  background: #DDDDDD ;    
+  border-radius: 0px !important;
+}
+/* .MuiButton-root {
+  padding: 6px !important ;
+  min-width: 50px !important;
+
+} */
+/* scrollbar css */
+::-webkit-scrollbar {
+  width: 5px;
+ 
+}
+::-webkit-scrollbar-thumb {
+  background:#009688; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #037c70;
+} 
+::-webkit-scrollbar-button {
+  width:2px;
+}
+
+
+.backArrowicon {
+  position: absolute;
+  left: 33.33%;
+  top: 43%;
+  fill: white !important;
+}
+.backArrow{
+  position: absolute;
+  width: 1.3%;
+  height: 5.5%;
+  left: 22.4%;
+  top: 298px;
+  display: flex;
+  background: #009688 ;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
+}
+.forwardArrow{
+  position: absolute;
+  width: 1.3%;
+  height: 5.5%;
+  left: 97.668%;
+  /* top: 298px; */
+  background: #009688 ;
+  box-shadow: -1px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
+  transform: rotate(-180deg);
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .backArrow{
+      position: absolute;
+      width: 1.3%;
+      height: 5.5%;
+      left: 310px;
+    /* top: 295px; */
+
+      display: flex;
+      background: #009688 ;
+      box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 0px 10px 10px 0px;
+  }
+  .forwardArrow{
+      position: absolute;
+      width: 1.3%;
+      height: 5.5%;
+      left: 97.3%;
+      /* top: 295px; */
+      background: #009688 ;
+      box-shadow: -1px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 0px 10px 10px 0px;
+      transform: rotate(-180deg);
+  }
+}
+@media screen and (min-device-width: 426px) and (max-device-width: 1024px) {
+  .backArrow{
+      position: absolute;
+      width: 1.3%;
+      height: 7.5%;
+      left: 2%;
+      /* top: 29%; */
+      display: flex;
+      background: #FFFFFF;
+      box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 0px 10px 10px 0px;
+  }
+  .forwardArrow{
+      position: absolute;
+      width: 1.3%;
+      height: 7.5%;
+      left: 96.75%;
+      /* top: 29%; */
+      background: #FFFFFF;
+      box-shadow: -1px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 0px 10px 10px 0px;
+      transform: rotate(-180deg);
+  }
+}
+
+.addiconStyle{
+  height: 20px !important;
+  width: 20px !important;
+  padding: 0px 19px;
+}
+
+.mr-10 {
+  margin-right: 10 !important;
+}
+.mr-13{
+  margin-right:13px !important
+}
+.mb-10{
+  margin-bottom:10px !important;
+}
+.selectAgdbPltpdc{
+ width: 100%;
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  border: 1px solid #033733;
+  border-radius: 5px;
+}
+.agdbGridpdc{
+  display: flex;
+  justify-content: flex-start;
+  /* padding: 12px 0px 11px 5.63% !important; */
+}
+.agdbGridpdc .MuiFormControl-root {
+  width: 100%;
+}
+.agdbGridpdc .MuiInputBase-root {
+  width: 100%;
+}

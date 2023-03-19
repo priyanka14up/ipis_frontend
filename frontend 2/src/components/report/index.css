@@ -1,0 +1,237 @@
+.MuiTable-root {
+    border-radius: 5 !important;
+  }
+  /* .MuiOutlinedInput-input {
+    padding: 5px 10px !important;
+  } */
+  
+.MuiTableCell-root {
+    padding: 5px !important;
+    text-align: center !important;
+  }
+.savebttn{
+    justify-content: center;
+    align-items: center;
+    margin: 50px !important;
+    color: white !important;
+    width: 200px;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+  
+.printbtn{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #009688;
+    color: #009688 !important;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.generate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position:fixed;
+    width: 42%;
+    height: 30px;
+}
+
+.reporttsx{
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding-bottom: 10px !important;
+}
+
+.context{
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+}
+
+.MuiSelect-select {
+    cursor: pointer;
+    min-width: 220px
+} 
+.MuiIconButton-root {
+  padding: 3px !important;
+}
+
+.MuiOutlinedInput-input {
+  padding: 10px 7px !important;
+}
+.MuiSvgIcon-root {
+  font-size: 1em !important;
+}
+
+.MuiInputBase-root {
+  
+  font-size: 14px!important;
+  
+}
+
+.doneIcon{
+  font-size: 1.5em !important;
+  display: inherit !important;
+  padding-right: 5px !important ;
+  color: #FFFFFF !important;
+}
+
+.printIcon{
+  font-size: 1.5em !important;
+  display: inherit !important;
+  padding-right: 5px !important ;
+  color: #009688 !important;
+}
+
+.day{
+  font-size: 14px;
+  height: 40px;
+}
+
+.month{
+  font-size: 14px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.reportCard{
+  text-align: center !important ;
+  margin-left: 10px;
+}
+
+.reportTableCard{
+  height: 69vh;
+ padding: 30px !important;
+}
+
+.selectionCard{
+  align-items: center;
+}
+
+.selectionCardContent{
+  padding: 30px !important;
+}
+.reporttext2{
+  display: flex !important;
+  /* justify-content: end; */
+  padding-right: 20px;
+  font-family: Roboto !important;
+  align-items: center;
+}
+.reportDropdown{
+  width: 14.1vw;
+  font-family: Roboto !important;
+  height: 3.8vh;
+  text-align: center;
+  border: 1px solid #033733;
+  border-radius: 5px;  
+}
+
+@media screen and (max-width : 1919px){
+ 
+  .reportDropdown{
+    width: 19vw;
+
+  }
+}
+.reporttext3{
+  width: 16vw !important;
+  height: 4vh !important;
+  text-align: center;
+  border-radius: 5px; 
+  justify-content: center;
+}
+.reporttext3 .MuiOutlinedInput-notchedOutline{
+  border: 1px solid #033733;
+  height: 4vh
+}
+.reporttext3 .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+.tbody-overFlow{
+  overflow: scroll;
+  height: 60vh;
+}
+.backCol th{
+  background-color:  #022926 !important;
+}
+
+/* Modified CSS */
+
+/* .reportTableCard{
+  padding-left: 10px;
+} */
+
+.rCard{
+  padding: 30px !important;
+  height: 79vh;
+  border-radius: 10px !important; 
+}
+
+.report-label{
+  margin-bottom: 12px;
+}
+
+.new-report-label{
+  margin-bottom: 25px;
+}
+
+.generate-button{
+  justify-content: center;
+}
+
+.duration-1{
+  margin-bottom: 25px !important;
+}
+
+.duration-2{
+  margin-bottom: 25px !important;
+}
+
+.report-type{
+  margin-bottom: 25px !important;
+}
+
+
+.butttons{
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.details{
+  padding-left: 10px !important;
+}
+
+.download{
+  display: flex;
+  justify-content: right;
+}
+
+.print{
+  display: flex;
+  justify-content: left ;
+}
+
+.useR{
+  margin-bottom: 50px !important;
+}

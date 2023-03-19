@@ -1,0 +1,186 @@
+.arvDepFont {
+    text-align: start;
+    margin: 5%;
+}
+
+.marginetrainstatustext {
+    margin: 2%;
+}
+
+.cardbackgroundcol {
+    padding: 2%;
+}
+
+.textalineStart {
+    text-align: start;
+}
+
+.headingCss {
+    margin: 2% 1% 4%;
+    font-size: 20px;
+    text-align: start;
+}
+
+.marginetop1 {
+    margin-top: 1%;
+}
+
+.margineBotm {
+    margin-bottom: 3% !important;
+}
+
+.width60 {
+    width: 60%;
+}
+
+.uprCardClass {
+    width: 100%;
+    padding: 0% 3% 4%;
+}
+
+.uprContainer {
+    text-align: -webkit-center;
+}
+
+.paddingBack {
+    padding-bottom: 6%;
+}
+
+.mb4 {
+    margin-bottom: 4% !important;
+}
+
+.w99 {
+    width: 99%;
+}
+
+.tscBtn {
+    margin-top: 10% !important;
+    background-color: #009688 !important;
+    color: #FFFFFF !important;
+    width: 85%;
+    margin-bottom: 12% !important;
+}
+
+.tA {
+    font-size: 20px;
+    text-align: start;
+    padding: 2% 0% 5%;
+}
+
+.uprFont {
+    margin-left: 2% !important;
+    text-align: start;
+    align-self: center;
+}
+
+.border {
+    border: solid black 1px;
+}
+
+.h100p {
+    height: 100%;
+}
+
+.p5 {
+    margin: 0% 1% 0% 1%;
+    padding: 0% 4% 0% 4%;
+}
+
+.choiceFild {
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #033733 !important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    /* margin-left: 20px; */
+    font-family: Roboto !important;
+    font-size: 14px !important;
+    /* padding: 4px!important;*/
+}
+
+.choiceFild .MuiSvgIcon-root {
+    font-size: 2em !important;
+    top: calc(50% - 15px);
+}
+
+
+
+.tal {
+    text-align-last: center;
+    border-radius: 24px;
+}
+
+.jce {
+    justify-content: end;
+}
+
+.transforn .MuiInputLabel-outlined {
+    transform: translate(77px, 11px) scale(1);
+}
+
+@media(max-device-width: 1600px) {
+    .transforn .MuiInputLabel-outlined {
+        transform: translate(30px, 11px) scale(1);
+    }
+}
+
+.tscBtnSub {
+    margin-top: 4% !important;
+    background-color: #009688 !important;
+    color: #FFFFFF !important;
+    width: 85%;
+    margin-bottom: 4% !important;
+}
+
+/* .scndColor {
+    position: absolute;
+    left: 55%;
+    bottom: 20%;
+    z-index: 2;
+}
+
+.frstColor {
+    position: absolute;
+    left: 6%;
+    bottom: 26%;
+    z-index: 2;
+} */
+
+@media(max-device-width: 1600px) {
+    .scndColor {
+        position: absolute !important;
+        left: 50% !important;
+        bottom: 0% !important;
+        z-index: 2 !important;
+    }
+
+    .frstColor {
+        position: absolute !important;
+        left: 0% !important;
+        bottom: 15% !important;
+        z-index: 2 !important;
+    }
+}
+
+.inputRadius .MuiOutlinedInput-root {
+    border-radius: 20px;
+}
+
+.loaderCss {
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    background: #ededed30;
+    z-index: 1 !important;
+    cursor: not-allowed;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ldrcircle {
+    margin: 16% 10% 0% 10%;
+    color: white !important;
+    width: 40px !important;
+    height: 40px !important;
+}

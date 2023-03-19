@@ -1,0 +1,733 @@
+.gridStyle {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1% 1% 0% 1%;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #222222 !important;
+}
+
+.stationstyle {
+  background: #FFFFFF;
+  border: 0px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.t1 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+}
+
+.stationDetails {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  color: #222222;
+}
+
+.enterDetail {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px !important;
+  color: #222222;
+}
+
+.dividerStyle {
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+}
+
+.configModalTextError {
+  color: red !important;
+  font-family: Roboto !important;
+}
+
+.t2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px !important;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  padding-top: 5px;
+  padding-bottom: 14px;
+}
+
+.Label {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-transform: capitalize;
+  color: #222222;
+  padding-right: 17% !important;
+
+}
+
+.selectName {
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  text-align: center !important;
+  align-items: center;
+  /* padding-top: 5px!important; */
+  width: 75.69%;
+  /* height: 68%; */
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  padding: 9px 0px;
+}
+
+.stationDataBox {
+  width: 74.69%;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0px !important;
+
+}
+
+.stationDataBox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.stationDataBox .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.intigratinCheckbox {
+  color: #033733 !important;
+  padding-right: 20px !important;
+}
+
+.intigratinSecondCheckbox {
+  color: #033733 !important;
+  padding-right: 5px !important;
+}
+
+.intigratinCheckboxlabel {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize !important;
+  color: #222222;
+}
+
+.intigratinRadio span {
+  color: #033733;
+  padding-right: 21.5px !important;
+}
+
+.intigratintext {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize !important;
+  padding-top: 7.3%;
+  padding-bottom: 3.2%;
+}
+
+.intigrateBox {
+  width: 100%;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.intigrateBox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.intigrateBox .MuiOutlinedInput-input {
+  text-align: center;
+}
+
+.intigrateButton {
+  border: 1px solid #009688 !important;
+  background: #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 5px !important;
+  width: 55.1%;
+}
+
+.intigrateButtonLabel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.intigratintext3 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize !important;
+  color: #222222;
+}
+
+.SelectAvailPlatform {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  margin: 0px 13px !important;
+  text-align: center;
+  padding: "7px 0px";
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.intigrateButton2 {
+  border: 1px solid #009688 !important;
+  background: #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 5px !important;
+  width: 120px;
+  height: 30px;
+}
+
+.intigrateButtonLabel2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.autoLoadTime {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 74%;
+  height: 84%;
+  margin: 0px 10px !important;
+}
+
+.autoDeviceEntry {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 74%;
+  height: 200%;
+  margin: 0px 10px !important;
+}
+
+.intigratinCheckbox2 {
+  color: #033733 !important;
+  padding-right: 20px !important;
+}
+
+.regionalName {
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  text-align: center;
+  padding-top: 5px !important;
+  width: 75.69% !important;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px 0;
+}
+
+.autoLoadText {
+  width: 72%;
+  border-radius: 5px !important;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 10px !important;
+}
+
+.autoLoadText .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+
+}
+
+.autoLoadText .MuiOutlinedInput-input {
+  padding: 0px !important;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.autoLoadText .MuiInputBase-root {
+  height: 40px;
+}
+
+.languagecheckBoxStyle {
+  margin-top: 11px;
+}
+
+.selectLanguage {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.AnnouncePrefer {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 99%;
+  height: 40px;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.intigratinCheckboxlabel2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: start;
+  text-transform: capitalize !important;
+  color: #222222;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.DetailsNtesSelect {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.DetailsNtesSelect2 {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px !important;
+}
+
+.DetailsNtesSelect2 .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.DetailsNtesSelect2 .MuiOutlinedInput-input {
+  padding: 0px !important;
+  text-align: center;
+}
+
+.DetailsNtesSelect2 .MuiInputBase-root {
+  height: 40px;
+}
+
+.StationSave {
+  width: 95%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* margin-right: 25px !important; */
+}
+
+.Sec-saveStation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.stationCancel {
+  width: 95%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+  /* margin-right: 25px !important;
+    margin-left: 25px !important; */
+}
+
+.autoTraincheckbox {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize !important;
+  color: #222222;
+}
+
+.platfomNO {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  color: #222222;
+  justify-content: end;
+
+}
+
+.configModalStyle {
+  background: #FBFBFB;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 10px !important;
+  /* max-height: 50vh; */
+  width: 52.45%;
+  position: static;
+  outline: none;
+  padding: 1.3% 1.3% 1.3% 3.85%;
+}
+
+.configModalText1 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex !important;
+  align-items: center;
+  color: #222222;
+}
+
+.configPlat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.configModalText2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex !important;
+  align-items: center;
+  color: #222222;
+  padding-right: 5%;
+}
+
+.configModalStyle2 {
+  background: #FFFFFF;
+  border: 1px solid #CECECE;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 0px 0px;
+  margin-right: 5%;
+  margin-top: 5px;
+  padding: 3% 2.5%;
+  display: flex;
+}
+
+.configDiv1Modal {
+  padding: 5px 5px;
+}
+
+.configAddDiv {
+  text-align: end;
+}
+
+.configModalText3 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center !important;
+  text-transform: capitalize;
+  color: #222222;
+}
+
+.addButtonConfig {
+  /* width: 24%; */
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.configModalStyle .configModalStyle3 {
+  background: #FFFFFF;
+  border: 1px solid #CECECE;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 5%;
+  /* padding: 0 19%; */
+  overflow-y: scroll !important;
+  min-height: 25vh !important;
+  padding-top: 6px;
+  height: 50px;
+}
+
+.configtext {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  color: #222222;
+}
+
+.configTextbox {
+  width: 100% !important
+}
+
+.configTextbox .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.configTextbox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #009688;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.configClearIconStyle {
+  color: #009688;
+  font-size: 20px !important;
+}
+
+.configContinueBtn {
+  width: 24%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 30px !important
+}
+
+.configContinueBtn.Mui-disabled {
+  margin: 0px 30px 0px 0px !important;
+}
+
+.configCancelBtn {
+  width: 24%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+  background: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btnredioSection {
+  margin-top: 10px !important;
+}
+
+.btnredioSection .btnredio {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.btnredio .MuiFormControlLabel-root {
+  /* margin-right: 2rem !important;
+margin-top: 15px; */
+  margin-left: 0px !important;
+}
+
+.formFields {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px !important;
+  top: 0px !important;
+  background: #ededed30;
+  z-index: 1000;
+  cursor: not-allowed;
+}
+
+.overlapBackground {
+  position: relative;
+  left: 0px !important;
+  top: 0px !important;
+}
+
+.trainLabel {
+  justify-content: end;
+  padding-right: 5px;
+}
+
+.stationCodeTxtBox .MuiInputBase-root {
+  width: 100% !important;
+}
+
+.availablePlatforms .MuiInputBase-root {
+  width: 76% !important;
+}
+
+.autoTrainUpdate .MuiInputBase-root {
+  width: 85% !important;
+}
+
+
+.button-aln {
+  align-self: center;
+}
+
+@media only screen and (min-width:1200px) {
+  .trainLabel {
+    justify-content: end;
+    /* padding-right: 20px; */
+  }
+}
+
+@media only screen and (max-height: 1000px) {
+  .coachDataCard {
+    max-height: 10vh !important
+  }
+}
+
+.tpiH {
+  height: 45vh;
+  max-height: 530px;
+}
+
+.atuH {
+  height: 45vh;
+  max-height: 530px;
+}
+
+.apH {
+  height: 22vh;
+  max-height: 260px;
+}
+
+.dNTESH {
+  height: 23vh;
+  max-height: 270px;
+}
+
+.mbats {
+  margin-bottom: 60px !important;
+}
+
+@media only screen and (max-height: 1042px) {
+  .tpiH {
+    height: 62vh !important;
+  }
+
+  .atuH {
+    height: 62vh !important;
+  }
+
+  .apH {
+    height: 31vh !important;
+  }
+
+  .dNTESH {
+    height: 31vh !important;
+  }
+}
+
+.cancelinsd {
+  padding: 40px 32px 50px 30px !important;
+}
+
+.saveinsd {
+  padding: 40px 32px 50px 30px !important;
+}

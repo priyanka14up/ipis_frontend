@@ -1,0 +1,100 @@
+.App {
+  // text-align: center;
+  // width: 100vw;
+  height: 100vh;
+  background: #e5e5e5;
+  overflow: hidden;
+  // overflow-x: none !important;
+  // overflow-y: auto;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+///add css for Button 
+/// 
+.refBtn:hover,.tddbBtn:hover,.addCoachBtn:hover,.CdsRefreshButton:hover,.log_out_btn:hover ,.addMessageBtn:hover,.messagebrowsebtn:hover,
+.DisplaySettingSave:hover,.DisplayFileListAdd:hover,.IvdDisplaySave:hover,.displaySelectedBtn:hover,.bttnlogin:hover,.savebutton:hover,.browsebtn:hover,.bttnSave:hover,
+.btn_continue:hover,.saveBtn:hover,.pdcSave:hover,.mldbSaveBtn:hover{
+ background-color: rgb(4 86 78 / 85%) !important;
+  color: #fff !important;
+}
+
+@media(max-width:1440px){
+  .addMessageBtn{
+  width:14.66% !important;
+
+  }
+  .DisplayFileListAdd{
+      min-width:0px !important;
+
+  }
+}
+@media(max-width:1280px){
+  .addMessageBtn{
+  width:19.66% !important;
+
+  }
+}
+.MuiIconButton-root{
+  border-radius: 0px !important;
+  color: #222222 !important;
+}
+.Mui-focused:focus{ border-color: rgba(0, 0, 0, 0.87) !important; }
+ .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,MuiOutlinedInput-root:focus-visible .MuiOutlinedInput-notchedOutline{ border-color: rgba(0, 0, 0, 0.87) !important; }
+ 
+.MuiPaper-elevation8 ul{
+  overflow: scroll !important;
+    height: 300px !important;
+ }
+ .MuiPaper-elevation8 .MuiListSubheader-sticky{
+  top: 0;
+  z-index: 1;
+  position: inherit !important;
+  background-color: inherit;
+ }
+
+.MuiIconButton-colorSecondary:hover {
+    background-color: #fff !important;
+}
+button:disabled {
+  background-color: #009687 !important;
+  opacity: 0.5 !important;
+  border: none !important;
+  outline: none !important;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+  border-radius: 5px !important;
+  // margin: 10px !important;
+  color: #ffffff !important;
+}

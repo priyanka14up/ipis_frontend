@@ -1,0 +1,198 @@
+.MuiTable-root {
+  border-radius: 5 !important;
+}
+
+.MuiOutlinedInput-adornedEnd {
+  padding-right: 0px !important;
+}
+
+/* .MuiOutlinedInput-input {
+  padding: 5px 10px !important;
+} */
+
+.MuiTableCell-root {
+  padding: 5px !important;
+  text-align: center !important;
+}
+
+.date {
+  width: 200px;
+  height: 40px;
+  color: white !important;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px 0px 0px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.th {
+  width: 200px;
+  height: 40px;
+  color: white !important;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.desc {
+  width: 750px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  color: white !important;
+  box-sizing: border-box;
+  border-radius: 0px 10px 0px 0px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.alt1 {
+
+  height: 40px;
+  font-size: 14px !important;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  margin: 0px 0px;
+}
+
+/* .alt2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+
+  position: static;
+  width: 200px;
+  height: 40px;
+  left: 0px;
+  top: calc(50% - 40px/2);
+
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+} */
+
+/* .alt3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+
+  position: static;
+  width: 200px;
+  height: 40px;
+  left: 0px;
+  top: calc(50% - 40px/2);
+
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 0px 0px 0px 10px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+} */
+
+.thead {
+  background-color: #033733;
+  /* text-emphasis-color: #FFF; */
+  border-radius: 10px, 10px, 0px, 0px;
+}
+
+.bottom {
+  border-radius: 0px, 0px, 10px, 10px;
+}
+
+.linkColor {
+  color: white;
+  text-decoration: auto;
+}
+
+.reportMainGrid {
+  padding: 10px;
+  /* height:  74vh ; */
+}
+
+.reportTypeGrid {
+  padding-bottom: 20px;
+}
+
+.generateButtonCss {
+  justify-content: center;
+}
+
+.reportTableCardGridCss {
+  text-align: center !important;
+  height: 100vh !important;
+  padding-top: 22% !important;
+}
+
+.reportIndexEndCss {
+  text-align: center !important;
+  /* height:  100vh !important; */
+  padding-top: 22% !important;
+  font-size: x-large !important;
+  color: red !important;
+  min-height: 12vh;
+}
+
+.datepickerStyle .MuiSvgIcon-root {
+  fill: #666666 !important;
+}
+
+/* Modified CSS */
+
+/* .reportTableCard{
+  padding-left: 10px;
+} */
+
+.saveBtttn {
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  width: 83.6%;
+  background: #009688 !important;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 8px !important;
+  height: 30px !important;
+
+}
+
+.field-style .MuiInputBase-input {
+  height: 1.429em !important;
+}
+
+.label-alignn{
+  text-align: right;
+}
+
+.generate{
+  width: 30.544%;
+  height: 30px;
+}
+
+.btn-span{
+  font-size: 12px !important;
+}
+
+.mt-24{
+  margin-top: 24px;
+}
+

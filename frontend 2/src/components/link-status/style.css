@@ -1,0 +1,189 @@
+.Linksidecardstyle{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px !important;
+    width: 100% !important;
+    height: 100%;
+}
+.linkchecktext1{
+    padding: 8%;
+    text-align: center;
+}
+.cdsDeviceButtonstyle1{
+    width: 100%;
+    background: #022926 !important;
+    display: flex !important;
+    justify-content: center;
+}
+.cdsDeviceButtonstyle2{
+    width: 100%;
+    background: #022926 !important;
+    display: flex !important;
+    justify-content: center;
+}
+
+.deviceButtonTextStyle{
+    font-family: roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #ffffff !important;
+    text-transform: capitalize !important;
+    padding: 10% !important;
+    text-align: center;
+}
+.cdsDeviceCardStyle1{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px !important;
+    height: 76vh;
+    margin-left: 10px;
+}
+.CdsRefreshButton{
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+    border-radius: 5px !important;
+    color: #FFFFFF !important;
+    padding: 10px !important;
+    height: 30px;
+    width: 120px;
+}
+.cdsDeviceCardStyle2{
+    padding: 1%;
+    text-align: right;
+}
+.tblcolm{
+    border: 1px solid #DDDDDD !important;
+    font-family: roboto !important;
+}
+
+.CdsRefreshIconStyle{
+    font-size: 14px !important;
+}
+.CdsRefreshlabelStyle{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.cdsTableSyle .cdsTblRow
+  {
+    border: 1px solid #DDDDDD;
+  }
+  .cdsTableSyle .cdsTblcol{
+    border: 1px solid #DDDDDD;
+    font-family: roboto !important;
+    }
+    .cdsTblRow{
+        background-color: #033733 !important;
+        color: #ffffff !important;
+        font-family: Roboto !important;
+      }
+      .cdsTblbdy{
+        background-color: #ffffff;
+        color: black;
+      }
+      .cdsTblcol {
+        background: #FFFFFF;
+        color: black;
+       }
+.CheckboxConnectedStyle{
+    background: #4FCD4C;
+    height: 24px !important;
+    width: 24px !important;
+    border: #4FCD4C;
+    color: #4FCD4C;
+}
+.CheckboxDisconnectedStyle{
+    background: #D45858;
+    height: 24px !important;
+    width: 24px !important;
+    border: #D45858;
+    color: #D45858;
+}
+.cdsNoTable{
+   color: red !important;
+}
+.pdcDeviceCardStyle2{
+    padding: 2%;
+    display: flex;
+}
+.pdcDeviceText{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 1rem !important;
+    line-height: 1.875rem !important;
+    display: flex;
+    align-items: center; 
+    text-align: right;
+    color: #222222;
+}
+.pdcDeviceSelectStyle{
+    padding: 5% !important; 
+    height: 40px;
+    width: 100px;
+    background: #FFFFFF;
+border: 1px solid #009688;
+box-sizing: border-box;
+border-radius: 5px;
+text-align: center;
+font-family: Roboto !important;
+font-size: 14px !important;
+}
+.CdsCheckButton{
+    padding: 5% !important;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 5px !important;
+    color:#FFFFFF !important;
+    width: 120px;
+    height: 30px;
+}
+
+.linkMenuRowActive {
+    background: #009688 !important;
+  }
+  .platformselect{
+    display: grid !important;
+  }
+  @media(min-width:1700px)and (max-width:1960px){
+    .platformselect{
+        display: grid !important;
+        grid-template-columns: .3fr 0.2fr 2fr;
+      }
+  }
+.mainIndex{
+    padding: 15px;
+    background:#E5E5E5;
+}
+.cdsTablePadding{
+    padding: 1%;
+}
+.alingEnd{
+    display: flex;
+    justify-content: end;
+}
+.platformselect{
+    grid-template-columns:auto;
+}
+
+.link-status-pdc{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width : 1500px){
+    
+    .link-status-pdc{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}

@@ -1,0 +1,245 @@
+.appheader_heading{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #022926;
+}
+
+.appheader_subtitle{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #022926;
+}
+.appheader_subtitles{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #022926;
+}
+// .log_out_btn{
+//   width: 100px;
+//   height: 34px;
+// }
+
+.menu_text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  word-break: break-all;
+ 
+}
+
+.tabs{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.menu_text:hover{
+  display: flex;
+  justify-content: center;
+  background-color:#009688!important;
+  width: 100%;
+}
+
+.menu_text.selected{
+  display: flex;
+  justify-content: center;
+  background-color:#009688!important;
+  width: 100%;
+}
+
+.menu_image{
+  margin-right: 15px;
+  padding: 2px;
+  
+}
+.appHeadText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #222222;}
+
+.appheader_heading{
+  margin-bottom: 10px;
+}
+.appheader_subtitle{
+  margin-bottom: 10px;
+}
+////new redesign header 20/-07/2022
+/// 
+#profileImage {
+  font-family:Roboto;
+   width: 3rem !important;
+   height: 3rem !important;
+  border-radius: 50%;
+   font-size: 1.25rem;
+   font-weight: 400;
+   box-shadow: 2px 2px 2px 2px grey;
+   color: #0c540c !important;
+  padding: 15px 10px 10px 10px;
+  cursor: pointer;
+  margin-right: 15px;
+  // padding-top: 15px;
+  // padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+}
+
+.Mainheader{
+  background-color: #fff;
+  background: #fff;
+  // padding: 15px;
+  height: 120px !important;
+}
+
+.imgraillogo{
+  padding: 10px;
+
+}
+.imgraillogo img{
+  width: 80px;
+  height: 80px;
+}
+.btnlogout{
+  display: grid;
+  grid-template-columns: 0.1fr 2.9fr 1fr;
+  align-items: center;
+}
+ div.profileImageText{
+  color: #022926;
+  font-size: 22px !important;
+  text-transform: capitalize;
+}
+.userName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-right: 10px;
+
+}
+.btnloginUserName{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #fff !important;
+}
+.headerFixed{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.MainContainer{
+  margin-top: 5px;
+  overflow: scroll;
+  height: 77vh;
+position: relative;
+border-radius: 10px;
+  background: #e5e5e5;
+}
+.MainheaderCss{
+  height:auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  display: flex !important;
+}
+.rainwayLogo{
+  align-items: center ;
+  display: flex ;
+}
+.paddingTop20{
+  padding-top: 20px;
+}
+.justifyContentEnd{
+  justify-content: end;
+  width: auto !important;
+}
+.socketMainCss{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.socketMainCss2{
+  color: black;
+  text-align: center;
+}
+.logOutButton{
+  background-color:  #009688 !important;
+  color: #FFFFFF !important;
+}
+.ntesConnectedMainCss{
+  height: 40px;
+  color: black;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.ntesConnectedsCss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  // align-self: center;
+}
+
+.textAlignCenter{
+  display: flex;
+  justify-content: center;  
+}
+
+.appHeadTextData{
+  text-align: right;
+  padding-right: 20px;
+}
+.lastCssforHeader{
+  height: 40px;
+  width: 100% !important;
+  background-color: #022926;
+  justify-content: space-evenly;
+  align-items: center ;
+}
+
+.logout-button{
+    width: 85%;
+    border-radius: 5px !important;
+}
+
+@media only screen and (min-width:1600px){
+  .menu_text{
+    width :max-content;
+  }
+}
+@media screen and (min-width: 1920px){
+.MainContainer{
+  height: 86vh;
+}
+}

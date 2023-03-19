@@ -1,0 +1,144 @@
+.b {
+  border: 2px solid black;
+}
+.bttnlogin {
+  height: 40px;
+  width: 180px;
+  font-size: 12px !important;
+}
+.login_txtfield {
+  width: inherit;
+  margin-top:20px;
+  background-color: #E8F0FE !important;
+}
+// .login-testH{
+//   height: 36.6px;
+//   width: 600px;
+// }
+.MuiFormControl-root {
+  display: flex !important;
+}
+p {
+  font-family:'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: #1c1c1c;
+  text-align: left;
+}
+.login-project-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #222222;
+  text-align: center;
+}
+.margLoginText{
+  margin-top: 10px !important;
+}
+.margLoginText20{
+  margin-top: 20px;
+}
+
+.MuiButton-root {
+  font-family: 'Roboto' !important;
+}
+
+.login_text{
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  margin-top: 10px !important;
+}
+
+.login_text2{
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  margin-top: 32px !important;
+}
+.MuiTypography-body1 {
+  font-family: 'Roboto' !important;
+}
+.mainHeader{
+  height:120px;
+  background:#416865;
+}
+.mainFooter{
+  height: 10vh;
+  width:100%;
+  background: #416865;
+  justify-content:center;
+}
+.eyecolor{
+  color: grey !important;
+}
+.innoBitFooter2{
+  color: white !important;
+  font-size: 12px !important;
+  align-items: center;
+}
+.innoBitFooter2.MuiTypography-body1{
+  color: white !important;
+  margin-left: 1%;
+}
+.innoBitFooter1{
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  height: 120px;
+}
+.alignSelfCenter{
+  align-self: center;
+}
+.justifycontaint{
+  justify-content: center;
+}
+.width100{
+  width: 100%;
+}
+.help{
+  margin-left: 20%;
+  color: #009688;
+}
+.help.MuiSvgIcon-root{
+  font-size: 35px !important;
+}
+.errorLogin{
+ text-align: center;
+ color: red;
+}
+.mainHeader2{
+  height:12vh;
+  background:#416865;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.maincont{
+  height: 100%;
+    position: relative;
+}
+.padngl{
+  padding-left: 1%;
+}
+.inoLoginBtn{
+  align-items: center;
+  text-align: center;
+  margin-top: 32px;
+}
+.login_txtfield .MuiFormHelperText-contained{
+  background: #e5e5e5;
+  margin-left: 2px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-top: 2%;
+}
+.mrgn40{
+  margin-top: 40px;
+}

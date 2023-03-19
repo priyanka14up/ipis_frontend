@@ -1,0 +1,176 @@
+.help-heading-txt {
+  font-family: 'Roboto' !important;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+
+.help-content {
+  font-family: 'Roboto' !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+}
+
+.small-card {
+  background-color: #022926 !important;
+  height: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.fAQ-content {
+  font-family: 'Roboto' !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 30px !important;
+  text-align: left;
+}
+
+.headText {
+  font-family: Roboto;
+  font-size: 36px;
+  color: #FFFFFF !important;
+}
+
+.mainCardCss {
+  margin: 20px;
+  position: relative;
+  // height: 72vh;
+  min-height: 74vh;
+}
+
+.margineBottomCss {
+  margin-bottom: 100px;
+}
+
+.helpTrainLogocss {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center
+}
+
+.welcomeIntegratedCss {
+  position: absolute;
+  top: 53px;
+  left: 120px;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px
+}
+
+.justifyContentCss {
+  justify-content: center;
+}
+
+.justifyContentSpace {
+  justify-content: space-evenly;
+}
+
+.marginBottom20 {
+  margin-bottom: 20px !important;
+}
+
+.width100 {
+  width: 100%;
+}
+
+/* Modified CSS */
+
+
+.IPIS {
+  background: #416865;
+  border-radius: 10px;
+}
+
+.version2 {
+  right: 20px;
+  font-weight: 900 !important;
+}
+
+.version1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px;
+}
+
+.headText {
+  font-size: 36px !important;
+  // font-weight: bold !important;
+  color: #FFFFFF !important;
+  text-transform: capitalize !important;
+}
+
+.headText.MuiTypography-body1 {
+  font-family: Roboto !important;
+  color: #FFFFFF !important;
+}
+
+.ipis {
+  align-self: center;
+}
+
+.cards {
+  background: #022926 !important;
+  padding: 12px;
+  height: 100%;
+  margin-bottom: 18px;
+  width: 100%;
+  border-radius: 10px !important;
+}
+
+.heading-font.MuiTypography-body1 {
+  font-family: Roboto !important;
+  color: #FFFFFF !important;
+  font-size: 24px;
+  margin-bottom: 2px !important;
+}
+
+.sub-heading-font.MuiTypography-body1 {
+  font-family: Roboto !important;
+  color: #FFFFFF !important;
+  font-size: 17px;
+}
+
+.container1 {
+  margin-top: 50px !important;
+}
+
+.main-card {
+  padding: 24px;
+  border-radius: 10px !important;
+}
+
+.main-container {
+  margin-top: 48px !important;
+}
+
+.align{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width : 1200px) {
+
+  .heading-font.MuiTypography-body1 {
+    font-family: Roboto !important;
+    color: #FFFFFF !important;
+    font-size: 21px;
+    margin-bottom: 2px !important;
+  }
+
+  .sub-heading-font.MuiTypography-body1 {
+    font-family: Roboto !important;
+    color: #FFFFFF !important;
+    font-size: 14px;
+  }
+ 
+}

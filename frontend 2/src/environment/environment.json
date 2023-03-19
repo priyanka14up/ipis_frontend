@@ -1,0 +1,13 @@
+{
+    "runningEnv":"DEMO",
+    "environments":[
+        {
+            "type":"DEV",
+            "baserAPIUrl":{
+                "modules":{
+                    "user":"`https://2329-125-63-69-52.ngrok.io/api/v1/`"
+                }
+            }
+        }
+    ]
+}

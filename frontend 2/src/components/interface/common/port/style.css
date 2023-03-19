@@ -1,0 +1,35 @@
+.port{
+    position: static !important;
+    height: 10px;
+    width: 58px;
+    background: #DDDDDD ;    
+    border-radius: 0px !important;
+}
+
+.port1{
+    position: static !important;
+    height: 10px;
+    width: 58px;
+    background: #4FCD4C !important ;    
+    border-radius: 0px !important;
+}
+
+
+
+/* .MuiButton-root {
+    padding: 6px !important ;
+    min-width: 50px !important;
+
+} */
+.portName{
+    width: 40px;
+    left:18px !important;
+    top:30px !important;
+}
+.centralDataSwich {
+    border: 1px solid #222222;
+    display: inline-table;
+    padding: 5px 10px !important;
+    border-radius: 5px;
+    cursor: pointer;
+}

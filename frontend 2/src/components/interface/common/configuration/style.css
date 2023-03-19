@@ -1,0 +1,861 @@
+
+.confHed {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #222222;
+    padding-bottom: 20px;
+}
+.confSubHed {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #222222;
+}
+.config{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding:3.74% 0px 4.295% 0px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+   padding-left: 0px !important;
+}
+.selCdcType {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #222222;
+    padding-right : 20px;
+}
+.cdcType{
+    padding: 12px 0px 12px 0px;
+    width: 100%;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    background: #FFFFFF;
+    border: 1px solid #033733;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+
+}
+.btndelete{
+    margin-left: 0px !important;
+}
+.report{
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 10px 12px 20px;
+    width: 270px;
+    height: 40px;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    background: #FFFFFF;
+    border: 1px solid #033733;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "roboto";
+}
+.pdcName .MuiInput-underline{ padding: 10px;}
+/* .MuiFormGroup-root {
+    display: block !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #033733 !important;
+}
+
+
+
+.pdcName .MuiInput-underline{ padding: 10px;}
+
+.checkingBox{
+    margin-right: 2px;
+}
+.enableMLDB{
+    margin-right: 100px;
+}
+
+/* .ipAddressoctates .MuiOutlinedInput-input{
+    text-align: center;
+  } */
+.pdcAddressoctates{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px !important;
+    width: 10.248%;
+    background: #FFFFFF;
+    border: 1px solid #033733 !important;
+    box-sizing: border-box !important;
+    border-radius: 5px;
+    text-align: center;
+}
+.pdcAddressoctates input {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+}
+.pdcAddressoctates .MuiInputBase-root {
+    width: 100%;
+}
+.pdcAddressoctates .MuiOutlinedInput-input{
+    text-align: center;
+}
+.pdcType{
+    padding: 11px 0px 10px 0px;
+    width: 84.5%;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    background: #FFFFFF;
+    border: 1px solid #033733;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    left: 11.97%;
+}
+.pdcName {
+    width: 84.5%;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative !important;
+    text-align: center;
+    text-transform: capitalize;
+    left: 11.97%;
+}
+.txtpdc{
+    width: 100% !important;
+    left: 0px !important;
+}
+.ddlpdcType{
+    width: 100% !important;
+    left: 0px;
+}
+.pdcName input {
+    padding: 11px 0px 10.39px 0px !important;
+    border: 1px solid #033733;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto !important;
+    font-size: 14px !important;
+}
+.pdcSaveBtn{
+    width: 18.212%;
+    height: 30px;
+    border: 1px solid #009688 !important;
+    font-family: roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important;
+    background: #009688 !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 25px !important;
+}
+.pdcCancelBtn {
+    width: 18.212%;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important; 
+    color: #009688 !important;
+    border: 1px solid #009688 !important;
+    margin-right: 25px !important;
+    margin-left: 25px !important;
+}
+.pdcDeleteBtn {
+    width: 18.212%;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important; 
+    color: #009688 !important;
+    border: 1px solid #009688 !important;
+    margin-left: 25px !important;
+}
+.ipAddressoctates{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px !important;
+    width: 100% !important;
+    background: #FFFFFF;
+    border: 1px solid #033733 !important;
+    box-sizing: border-box !important;
+    text-align: center;
+}
+.ipAddressoctates input {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+}
+.ipAddressoctates .MuiInputBase-root {
+    width: 100%;
+}
+.ipAddressoctates .MuiOutlinedInput-input{
+    text-align: center;
+}
+.ipAddressoctates .MuiOutlinedInput-notchedOutline {
+    border: 0px solid transparent !important;
+}
+.agdbName{
+    align-items: center;
+    width: 92.5%;
+    text-align: center;
+    height: 40px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.SaveIcon{
+    font-size: 1.5em !important;
+    display: inherit !important;
+    padding-right: 5px !important ;
+    color: #FFFFFF !important;
+}
+
+.clearIcon{
+    font-size: 1.5em !important;
+    display: inherit !important;
+    padding-right: 5px !important ;
+  
+}   
+.saveBtn{
+    width: 150px !important;
+    height: 30px;
+    border: 1px solid #009688 !important;
+    font-family: roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important;
+    background: #009688 !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-right: 25px !important; */
+}
+.pdcSave{
+        /* width: 37.618%; */
+        height: 30px;
+        font-family: Roboto !important;
+        font-style: normal;
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        line-height: 14px !important;
+        text-transform: uppercase !important; 
+        background: #009688 !important;
+        color: #ffffff !important;
+        border-radius: 5px !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-right: 25px !important;
+        /* margin-left: 25px !important; */
+        margin-bottom: 10px !important;
+}
+.pdcSave.Mui-disabled{
+    margin:0px 25px 10px 0px !important;
+} 
+/*.ivdSaveBtn {
+    width: 15.77%;
+    height: 30px;
+    border: 1px solid #009688 !important;
+    font-family: roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important;
+    background: #009688 !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 25px !important;
+  } */
+.printBtn {
+    /* width: 37.618%; */
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important; 
+    color: #009688 !important;
+    border: 1px solid #009688 !important;
+    /* margin-right: 25px !important; */
+    /* margin-left: 25px !important; */
+ 
+}
+.btncancel{
+    margin-bottom: 10px !important;
+}
+
+.deleteBtn {
+    /* width: 37.618%;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important; 
+    color: #009688 !important;
+    border: 1px solid #009688 !important;
+    margin-left: 25px !important; */
+    /* width: 37.618%; */
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important; 
+    color: #009688 !important;
+    border: 1px solid #009688 !important;
+    margin-right: 25px !important;
+     margin-left: 25px;
+    /* margin-bottom: 10px !important; */
+}
+.deleteBtn.Mui-disabled{
+    margin:0px 25px 0px 0px !important;
+} 
+.nextBtn {
+    /* width: 37.618%; */
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important; 
+    color: #009688 !important;
+    border: 1px solid #009688 !important;
+    /* margin-left: 25px !important; */
+}
+.nextBtn.Mui-disabled{
+    margin:0 0 0 0px !important;
+}
+.nextBtnMstr{
+    width: 31.618%;
+    height: 30px;
+    color: #FFFFFF !important;
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important; 
+   background-color: #009688 !important;
+    border: 1px solid #009688 !important;
+}
+.printbttn{
+    width:89%;
+    height: 30px;
+    /* right: 35px; */
+    border-radius: 8px !important;
+    font-family: roboto !important;
+    margin-left: 25px !important;
+}
+.deleteIcon{
+    font-size: 1.5em !important;
+    display: inherit !important;
+    padding-right: 5px !important ;
+}
+.deletebttn{
+    width:75%;    
+    height: 30px;
+    border-radius: 8px !important;
+    font-family: roboto !important; 
+    color: #009688 !important; 
+}
+.mldbCard {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+}
+.mldbCardPdc{
+    padding:20px;
+    background: #FFFFFF;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px !important;
+}
+.mldbGrid {
+    display: flex !important;
+    justify-content: flex-start;
+    /* padding: 12px 0px 11px 4.49% !important; */
+}
+.mldbGridPdc{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mldbGridPdc .MuiFormControl-root {
+    width: 100%;
+}
+.mldbGrid .MuiInputBase-root {
+    width: 100%;
+}
+.mldbBoxStyle {
+    background: #FFFFFF;
+}
+.mldbBoxStyle .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+.mldbBoxStyle .MuiOutlinedInput-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding: 11.7px 7px !important;
+}
+.mldbSubHed {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #222222;
+    padding-right: 32px;
+}
+
+.mldbNameValue{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #033733;
+    text-align: center;
+    font-family: Roboto !important;
+    font-size: 14px !important;
+}
+.mldbNameValuePdc{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #033733;
+    text-align: center;
+    font-family: Roboto !important;
+    font-size: 14px !important;
+}
+.mldbNameValue .MuiOutlinedInput-input{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+}
+.mldbNameValue .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #033733;
+}
+.mldbNameValuePdc .MuiOutlinedInput-input{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+}
+.mldbNameValuePdc .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #033733;
+}
+.mldbSaveBtn {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mldbCancelBtn {
+  width: 100%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important; 
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+}
+.mldbDeleteBtn {
+  width: 100%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important; 
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+}
+.mr-10 {
+    margin-right: 10px !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.pr-20 {
+    padding-right: 20px !important;
+}
+.p-0 {
+    padding: 0px !important;
+}
+.h-40 {
+    height: 40px;
+}
+.agdbCard {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+}
+.agdbCardPdc{
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px !important;
+    height: 385px;
+}
+.agdbGrid {
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px 0px 11px 15px !important;
+}
+.agdbGrid .MuiFormControl-root {
+    width: 7.848%;
+}
+.agdbGrid .MuiInputBase-root {
+    width: 100%;
+}
+.agdbSubHed {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px !important;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #222222;
+    padding-right: 32px;
+}
+.agdbTextBox {
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 12px 0px 11px 1.13% !important; */
+}
+.agdbNameValue{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #033733;
+    text-align: center;
+    font-family: Roboto !important;
+    font-size: 14px !important;
+}
+.agdbNameValuePdc{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #033733;
+    text-align: center;
+    font-family: Roboto !important;
+    font-size: 14px !important;
+}
+.agdbNameValue .MuiOutlinedInput-input{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+    padding: 11.7px 7px !important;
+}
+.agdbNameValuePdc .MuiOutlinedInput-input{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+    padding: 11.7px 7px !important;
+}
+.agdbNameValue .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #033733;
+}
+.agdbNameValuePdc .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #033733;
+}
+.selectAgdbPlt {
+  /* width: 16.677%; */
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  border: 1px solid #033733;
+  border-radius: 5px;
+}
+.selectAgdbPltPdc2{
+    width: 100%;
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  border: 1px solid #033733;
+  border-radius: 5px;
+}
+.scrollStyle::-webkit-scrollbar-thumb{
+visibility: hidden !important;
+  }
+.margineBottum{
+    margin-bottom: 12% !important;
+}
+
+
+/* Modified CSS */
+
+.inner-card{
+    padding: 21px !important;
+    /* margin: auto; */
+}
+
+.margin-N{
+    margin-bottom: 21px !important;
+}
+
+.config{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    padding-left: 90px !important; 
+
+}
+
+.mldbTextBox {
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 12px 0px 11px 2.62% !important; */
+}
+
+.mb-17{
+    margin-bottom: 17px !important;
+}
+
+.btnGroup{
+    margin-top: 15px;
+    text-align: center;
+    width: 37.618% !important;
+}
+
+.btnGrp{
+    display: flex !important;
+    justify-content: center !important;
+    margin-left: 10% !important;
+}
+
+.pdc-btns{
+    width : 91.25% !important;
+}
+
+.cdc-btns{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.mb-21{
+    margin-bottom: 21px !important;
+}
+
+.w-90-g{
+    width: 92.78% !important;
+}
+
+.h-1 .MuiInputBase-input{
+    height : 1.2rem;
+}
+
+.alignn{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* .pl-N{
+    padding-left: 10px !important;
+} */
+
+.pr-N{
+    padding-right: 32px !important;
+}
+
+.mb-25{
+    margin-bottom: 25px !important;
+}
+
+.align-P{
+    align-self: center !important;
+}
+
+.configSetting {
+    padding: 30px;
+    border-radius: 10px !important;
+}
+
+.w-mldb{
+    width: 100%;
+}
+
+.w-agdb{
+    width: 63.801% !important;
+}
+
+.w-pfdb{
+    width: 64% !important;
+}
+
+.pr-pdb{
+    padding-right: 32px !important;
+}
+
+/* .innerCard{
+    height: 332px;
+    position: relative;
+    left: 15%;
+} */
+.mldbbtn{
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    width: 100%; 
+    margin-right: 5% !important;
+    margin-left: 0%;
+}
+@media(max-width:1920px){
+    .mldbbtn{
+        margin-right: 20% !important;
+        margin-left: 0% !important;
+    }
+}
+@media(width:1920px){
+    .mldbbtn{
+        margin-right: 6% !important;
+        margin-left: 0% !important;
+    }
+}

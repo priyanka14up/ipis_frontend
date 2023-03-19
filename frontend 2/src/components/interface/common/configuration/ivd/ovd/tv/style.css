@@ -1,0 +1,293 @@
+.ipbox{
+    background: #FFFFFF;
+    margin-left: 10px!important;
+    padding-right: 7px !important;
+    padding-left: 7px!important;
+}
+
+.ipbox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733 !important;
+}
+.ipbox .MuiOutlinedInput-input{
+  text-align: center;
+}
+.ivdBox{
+ 
+    font-family: 'Roboto';
+    border-radius: 5px;
+    margin-top: 9px!important;
+    margin-left: 52px!important;
+    width: 235px;
+    height: 16px;
+    font-size:16px ;
+}
+.ivdBox .MuiOutlinedInput-notchedOutline{
+  border: 1px solid #033733;
+}
+.ivdBox .MuiOutlinedInput-input {
+  text-align: center;
+}
+
+/* .selectfield {
+   
+    font-family: 'Roboto';
+    border-radius: 5px;
+    height: 36px;
+    width: 235px;  
+    font-size:"16px" ;
+    border:1px solid #033733;
+    margin-top: 20px!important;
+    background-color: #FFFFFF;
+    margin-left: 50px!important;
+    text-align: center;
+  } */
+
+  .savebtn{
+    padding: 5px 15px!important;
+    border: 1px solid #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #009688 !important;
+    margin-top: 70px !important;
+    color:#FFFFFF!important;
+    width: 150px;
+    height: 30px;
+    margin-right: 20px!important;
+  }
+
+  .canclebtn{
+    padding: 5px 15px!important;
+    border: 1px solid #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 70px !important;
+    color: #009688!important;
+    width: 150px;
+    height: 30px;
+    margin-right: 20px!important;
+  }
+
+  .fontbtn{
+        font-size: "12px";
+        font-family:'Roboto';
+       
+  }
+ .btnicon{
+    font-size: 1.3em!important;
+    padding-right: 2px;
+ }
+
+ .checktextfield{
+   width: 30px;
+   padding-right: 15px!important;
+  
+ }
+ .checktextfield .MuiOutlinedInput-notchedOutline{
+   border-color: #033733;
+ }
+ .checktextfield .MuiOutlinedInput-input{
+   text-align: center;
+ }
+.indexCard {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+}
+.sddHed {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding-bottom: 16.45% !important;
+}
+.sddSubMenu .MuiTypography-root {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding: 16px 0px 16px 21px;
+}
+.sddSubMenu .MuiButtonBase-root,
+.radioBox .MuiButtonBase-root {
+  font-weight: 500;
+  font-size: 24px !important;
+  line-height: 16px;
+  color: #222222 !important;
+  }
+  .sddSubMenu span.MuiFormControlLabel-label {
+    font-size: 14px;
+  }
+.ivdCard {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px !important;
+}
+.ivdHed {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding-bottom: 20px;
+}
+.ivdSubHed {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+}
+.ivdSubItem {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #222222;
+  padding-right: 32px;
+}
+.ivdGrid {
+  display: flex;
+  justify-content: flex-start;
+}
+.ivdGrid .MuiFormControl-root {
+  width: 100%;
+}
+.ivdGrid .MuiInputBase-root {
+  width: 100%;
+}
+.ivdBoxStyle {
+  background: #FFFFFF;
+}
+.ivdBoxStyle .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+.ivdBoxStyle .MuiOutlinedInput-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding: 11.7px 7px !important;
+}
+.ivdTextBox {
+  display: flex;
+  justify-content: flex-start;
+  /* padding: 12px 0px 11px 3.63% !important; */
+}
+.ivdTextFieldValue {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #033733;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+.ivdTextFieldValue .MuiOutlinedInput-input {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+  padding: 11.7px 7px !important;
+}
+.ivdTextFieldValue .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+.h-40 {
+  height: 40px;
+}
+.pr-20 {
+  padding-right: 20px !important;
+}
+.radioBox {
+  display: flex;
+  justify-content: space-between;
+}
+.radioStyle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  padding-left: 21px;
+}
+.ivdSaveBtn {
+  width: 89.03%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ivdCancelBtn {
+  width: 89.03%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important; 
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+}
+.ivdDeleteBtn {
+  width: 89.03%;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important; 
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+}

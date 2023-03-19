@@ -1,0 +1,2992 @@
+.sideMenu {
+  background: #022926 !important;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 10px !important;
+}
+
+.sideMenuRow {
+  background: #022926;
+  padding: 16px 10px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideMenuRowActive {
+  background: #009688;
+}
+
+.hg-theme-default {
+  background-color: #009688 !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  overflow: hidden;
+  /* padding: 5px; */
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 100% !important;
+  z-index: 99999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+}
+
+/* 
+.MuiAutocomplete-inputRoot{
+  padding: 3px!important;
+} */
+.sideMenuRowText {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-transform: capitalize !important;
+  color: #FFFFFF !important;
+}
+
+.tblcol {
+  background-color: #f5f5f5;
+  color: #222222;
+}
+
+.tblcol:nth-of-type(odd) {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.tblRow {
+  background-color: #022926 !important;
+  color: #ffffff !important;
+  font-family: Roboto !important;
+  border: #DDDDDD !important;
+}
+
+.tblbdy {
+  background-color: #ffffff;
+  color: black;
+}
+
+.tablebottom {
+  background-color: #022926;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.checkstyle {
+  padding-right: 21vw;
+}
+
+.checkstyle[label] {
+  font-family: "Roboto" !important;
+  font-size: 110px;
+}
+
+.radiostyle {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.webConfigtextBoxstyle {
+  border-radius: 5px;
+}
+
+.logoimg {
+  padding-left: 14%;
+}
+
+.powered {
+  float: right;
+}
+
+.setDatabox {
+  padding: 12px 10px 12px 20px;
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px !important;
+
+}
+
+.setDatabox .MuiInputBase-input {
+  /* border: 1px solid #033733; */
+  text-align: center;
+  border-radius: 4px;
+}
+
+.sceSmallbox {
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.sceSmallbox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.sceSmallbox .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.authBox .MuiInputBase-root {
+  margin-top: 10px;
+}
+
+.authBox {
+  position: static;
+  width: 85.75%;
+  height: 60px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.my-swal {
+  z-index: 10000;
+}
+
+.platformBox {
+  font-family: "Roboto";
+  border-radius: 5px;
+  margin-top: 3.83% !important;
+  width: 55.43%;
+  font-size: "14px";
+  margin-top: 10.47%;
+
+}
+
+.sceSmallbox2 {
+  font-family: "Roboto";
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.sceSmallbox2 .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.sceSmallbox2 .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.sceSmallbox3 {
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.sceSmallbox3 .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.sceSmallbox3 .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.sceBigbox {
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 53.23%;
+}
+
+.sceBigbox .MuiSvgIcon-root,
+.sceBigbox2 .MuiSvgIcon-root,
+.sceBigbox3 .MuiSvgIcon-root {
+  width: 2em !important;
+
+}
+
+.sceBigbox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.sceBigbox .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.sceBigbox2 {
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.sceBigbox2 .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.sceBigbox2 .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.sceBigbox3 {
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.labelAlign {
+  text-align: end !important;
+  padding-right: 5px !important;
+}
+
+.sceBigbox3 .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.sceBigbox3 .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.webConfigtext3 {
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  align-self: center;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.webConfigtextBoxstyle .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.webConfigtextBoxstyle .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.Cancle {
+  height: 30px;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+  width: 76.9%;
+}
+
+.Save {
+  padding: 10px 20px !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  height: 30px;
+  width: 76.9%;
+}
+
+button:disabled {
+  background-color: #009687 !important;
+  opacity: 0.5 !important;
+  border: none !important;
+  outline: none !important;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 5px !important;
+  /* margin: 10px !important; */
+  color: #ffffff !important;
+}
+
+.exisitingData {
+  padding-top: 14px;
+  padding-bottom: 15px;
+
+}
+
+/* .MuiTypography-body1{
+  font-size: 14px !important;
+} */
+.Notdataget {
+  padding: 5%;
+  text-align: center;
+  color: red !important;
+  border-bottom: 0px !important;
+  padding-top: 20px !important;
+}
+
+.loderIcon {
+  text-align: center;
+  align-items: center;
+  border-bottom: 0px !important;
+  padding-top: 20px !important;
+
+}
+
+.bttnfont {
+  font-size: 15px;
+  font-family: "Roboto";
+
+}
+
+.txt {
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  text-transform: capitalize;
+}
+
+.EdSaCanc {
+  margin-bottom: 18px;
+}
+
+.EDtext {
+  font-size: 16px;
+  font-family: "Roboto" !important;
+  display: flex;
+  justify-content: end;
+  padding-right: 5px;
+  align-items: center;
+}
+
+.edRow {
+  margin-top: 5px;
+}
+
+.DBtext {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width:1919px) {
+  .DBtext {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+  }
+}
+
+.PNtext {
+  font-size: 16px;
+  font-family: "Roboto" !important;
+  padding-left: 29.72%;
+  padding-top: 2.5%;
+}
+
+.selectstyle {
+  width: 51%;
+  height: 40px;
+  /* border: 1px solid #033733; */
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffffff;
+  text-align: center;
+  font-family: "Roboto" !important;
+  font-size: 20px !important;
+  display: flex;
+}
+
+.DBselectBox {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffffff;
+  text-align: center;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+}
+
+.DBselectBox2 {
+  width: 100% !important;
+  background: #FFFFFF;
+  /* border: 1px solid #033733 !important; */
+  border-radius: 5px;
+
+}
+
+.DBselectBox2 .MuiInputBase-input {
+  padding: 10px 7px !important;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.modestyle {
+  width: 92%;
+  height: 40px;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffffff;
+  text-align: center;
+  font-family: "Roboto" !important;
+  font-size: 16px !important;
+}
+
+.EDSave {
+  padding: 5px 15px !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  width: 64%;
+  height: 30px;
+  margin-bottom: 0px !important;
+}
+
+.EDCancle {
+  width: 64% !important;
+  height: 30px;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+  margin-bottom: 0px !important;
+}
+
+.optistyle {
+  height: 100%;
+}
+
+.railstyle {
+  height: 100%;
+}
+
+.coachentry {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #222222;
+}
+
+.E-CoachName {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 30px;
+  display: flex;
+  padding-right: 10px;
+  text-align: left !important;
+  justify-content: flex-end !important;
+  align-self: center;
+}
+
+.E-StaitionName {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-top: 12.56%;
+  padding-left: 18.58%;
+  padding-right: 1.37%;
+}
+
+.E-Status {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-top: 12.56%;
+  padding-left: 26.58%;
+  padding-right: 1.37%;
+}
+
+.E-File {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-top: 7.99%;
+  padding-left: 62px;
+  justify-content: end;
+  padding-right: 30px;
+}
+
+.H-StaitionName {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-top: 10.94%;
+  padding-left: 23%;
+}
+
+.H-Status {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-top: 10.94%;
+  padding-left: 30%;
+}
+
+.R-StaitionName {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-left: 19%;
+  padding-top: 10.94%;
+  justify-content: center;
+}
+
+.R-Status {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-left: 9%;
+  padding-top: 10.94%;
+  justify-content: end;
+  padding-right: 8%;
+}
+
+.R-File {
+  font-family: Roboto !important;
+  padding-top: 7.27%;
+  padding-left: 13%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.H-File {
+  font-family: Roboto !important;
+  padding-top: 7.27%;
+  padding-left: 14%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+
+
+}
+
+.E-StaitionCode {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  padding-top: 14.99%;
+  padding-left: 10.9%;
+
+}
+
+.H-CoachName {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 30px;
+  display: flex;
+  padding-right: 10px;
+  text-align: left !important;
+  justify-content: flex-end !important;
+  align-self: center;
+}
+
+/* .Mui-focused{
+  border:none;
+} */
+
+.MuiAutocomplete-inputFocused {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.eselectType2 {
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  /* margin-top: 25%;
+ margin-right: 50px; */
+  /* margin-left: 20px; */
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  /* padding: 4px!important; */
+}
+
+.eselectType {
+  height: 40px;
+  background: #FFFFFF;
+  /* border: 1px solid #033733 !important; */
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  /* margin-top: 25%;
+ margin-right: 50px; */
+  /* margin-left: 20px; */
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  /* padding: 4px!important; */
+}
+
+.eselectType .MuiSelect-select {
+  max-width: 100vw !important
+}
+
+.eautoComplete .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"][class*="MuiOutlinedInput-marginDense"] {
+  padding: 0px !important;
+  height: 36px;
+}
+
+.coachSelectstyle {
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 15.25em;
+  text-align: center !important;
+  margin-top: 25px;
+  margin-right: 50px;
+  font-family: Roboto !important;
+  font-size: 20px !important;
+}
+
+.testCommand {
+  padding-right: 5px;
+  justify-content: end !important;
+  display: flex;
+  /* align-items: flex-start; */
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.testCommandSelect {
+  width: 93%;
+  align-items: center;
+  font-family: Roboto !important;
+  font-size: 16px !important;
+  justify-content: center !important;
+  display: flex;
+  border: 1px solid #033733 !important;
+  padding: 5px 30px;
+  align-items: center !important;
+  text-align: center
+}
+
+.boardTypeBox {
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 14px !important;
+  font-family: Roboto !important;
+  align-items: center !important;
+}
+
+.seconds {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  text-transform: capitalize;
+  justify-content: right;
+  padding-right: 5px;
+}
+
+.testCommand .MuiInputBase-input {
+  /* border: 1px solid #033733; */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.testPatternBox .MuiInputBase-input {
+  /* border: 1px solid #033733; */
+  text-align: center;
+}
+
+.secondsBox .MuiInputBase-input {
+  /* border: 1px solid #033733; */
+  text-align: center;
+}
+
+.intigratinCheckbox {
+  color: #033733 !important;
+  padding-right: 28px !important;
+  padding-right: 5.3% !important;
+}
+
+.announcementCheckbox {
+  color: #033733 !important;
+}
+
+.langCheck .MuiFormControlLabel-root {
+  margin-right: 0px !important;
+}
+
+.intigratinCheckboxlabel {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize !important;
+  color: #222222;
+}
+
+.displayBoardCheckbox {
+  padding-top: 5.72%;
+  padding-right: 16%;
+}
+
+.secondsBox {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  justify-content: flex-end;
+}
+
+.testPatternBox {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  justify-content: flex-end !important;
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+
+.testCommandBox {
+  height: 55.3%;
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 84.1%;
+  text-align: center;
+  margin-top: 6.55%;
+  justify-content: flex-end !important;
+}
+
+
+.hselectType {
+  height: 40px;
+  background: #FFFFFF;
+  /* border: 1px solid #033733 !important; */
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center !important;
+  cursor: not-allowed;
+  /* padding: 9px !important; */
+  font-size: 14px !important;
+  font-family: Roboto !important;
+}
+
+.hautoComplete .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"][class*="MuiOutlinedInput-marginDense"] {
+  height: 40px;
+
+}
+
+.hTextField {
+  height: 40px;
+  background: #FFFFFF;
+  /* border: 1px solid #033733 !important; */
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 15.25em;
+  text-align: center !important;
+  padding: 9px !important;
+  font-size: 14px !important;
+  font-family: Roboto !important;
+}
+
+.browsebtn {
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  padding: 0px !important;
+  height: 30px;
+  width: 49%;
+}
+
+
+
+.savebutton {
+  padding: 5px 15px !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  width: 100%;
+  height: 30px;
+}
+
+.canclebutton {
+  width: 100% !important;
+  height: 30px;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.uniqueName .tblRow {
+  border: 1px solid #DDDDDD !important;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+
+}
+
+.uniqueName .tblcolm {
+  border: 1px solid #DDDDDD !important;
+  font-family: roboto !important;
+  font-size: 14px;
+}
+
+
+.radioButtonsD span {
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 16px;
+  align-items: center;
+  color: #222222 !important;
+  order: 1;
+  font-family: "roboto" !important;
+  margin-left: 4px;
+  align-self: end;
+}
+
+.radioButtonssD span {
+  font-weight: 600;
+  font-size: 14px !important;
+  line-height: 16px;
+  align-items: center;
+  color: #222222 !important;
+  order: 1;
+  font-family: "roboto" !important;
+  margin-left: 4px;
+  align-self: self-end;
+}
+
+.setModeBox {
+  height: 68.80%;
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 97.94%;
+  text-align: center;
+  margin-top: 9.92%;
+  margin-left: 19.19%;
+
+}
+
+.email {
+  padding-top: 15px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.authreqd {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  line-height: 33px !important;
+  padding-top: 7.87%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+}
+
+.powered {
+  padding-top: 5%;
+}
+
+.setModeBox2 {
+  height: 68.80%;
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 97.94%;
+  text-align: center;
+  margin-left: 19.19%;
+  margin-top: 15px;
+
+
+}
+
+.btnAddPltfrm {
+  margin-top: 9.14% !important;
+  width: 63.84%;
+  background: #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.btnAddPltfrm .MuiButton-label {
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn_setIntensity {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9.14% !important;
+  margin-left: 13% !important;
+  width: 50.84%;
+  height: 63%;
+
+  background: #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.btn_setIntensity .MuiButton-label {
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.crossicon {
+
+  color: #009688;
+  position: relative;
+  left: 98%
+}
+
+.crossicon2 {
+  position: relative;
+  right: 100%;
+  top: 42%;
+  color: #009688;
+
+}
+
+.addNewPlatform {
+  font-size: 14px;
+  padding-left: 4.38%;
+  padding-top: 3.32%;
+  padding-bottom: 2.48%;
+}
+
+.configureBtn {
+  justify-content: center;
+  padding-top: 3.24%;
+  padding-bottom: 6.07%;
+}
+
+.configureCard {
+  background: #FFFFFF;
+  border: 1px solid #CECECE;
+  box-sizing: "border-box";
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: "87.41%";
+  border-radius: 10px 10px 0px 0px;
+}
+
+.configurePlatform {
+  justify-content: space-between;
+}
+
+.cofigplatform {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.PNform {
+  overflow: auto;
+  height: 25vh;
+}
+
+.modalSave {
+  padding: 5px 15px !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  width: 12.4%;
+  height: 30px;
+  margin-right: 50px !important;
+}
+
+.DISSave {
+  padding: 5px 15px !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  width: 93%;
+  height: 30px;
+}
+
+.test1Button {
+  position: absolute;
+  width: 86%;
+  height: 30px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-family: roboto !important;
+  align-items: center !important;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 12px 0px !important;
+  border-radius: 5px;
+}
+
+.test1Button .MuiGrid-root {
+  text-align: start !important;
+}
+
+.DBSave {
+  padding: 5px 30px !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  width: 89.4%;
+  height: 30px;
+}
+
+.DBStart {
+  padding: 5px 15px !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #009688 !important;
+  color: #ffffff !important;
+  width: 85%;
+  height: 30px;
+
+}
+
+.setData {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.recivedData {
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  justify-content: end;
+  padding-right: 5px;
+}
+
+.recivedDataBox {
+  padding: 12px 10px 12px 20px;
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+
+}
+
+.recivedDataBox .MuiInputBase-input {
+  /* border: 1px solid #033733; */
+  height: 53px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.response {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 10px;
+}
+
+.modalCancel {
+  width: 150px !important;
+  height: 30px;
+  color: #009688 !important;
+  background: #ffffff !important;
+
+  margin-right: 50px !important;
+
+}
+
+.DISCancle {
+  width: 93% !important;
+  height: 30px;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: 1px solid #009688 !important;
+  color: #009688 !important;
+}
+
+.DBCancle {
+  width: 89.4% !important;
+  height: 30px;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+
+}
+
+.DBStop {
+  width: 85% !important;
+  height: 30px;
+  padding: 5px 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+}
+
+.startTime {
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  margin-top: 7.83% !important;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 5.47% !important;
+
+}
+
+.startTime .Mui-disabled {
+  margin-top: 3%;
+}
+
+.intrCheck {
+  color: rgb(3, 55, 51) !important;
+}
+
+.startTime2 {
+  font-family: "Roboto" !important;
+  border-radius: 5px;
+  margin-top: 3.83% !important;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 6.47% !important;
+
+}
+
+.startTime2 .Mui-disabled {
+  margin-top: 3%;
+}
+
+.testPattern {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+
+}
+
+.DisplayText1 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+  padding-bottom: 9.4%;
+}
+
+.DisplayText2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #222222;
+  margin-right: 30px !important;
+  justify-content: flex-end;
+}
+
+.trainDataMainCard {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.trainDataCard {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+  padding: 10px;
+}
+
+.padStyle {
+  padding: 0px 15px 15px 15px;
+}
+
+.trainDataItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.trainDataItemName {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222 !important;
+  /* padding-right: 12.494%; */
+}
+
+.messagetext2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex;
+  align-items: center;
+  color: #222222;
+}
+
+.Defaultmsgbox {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #222222;
+}
+
+.Defaultmsgcheckbox {
+  color: #033733 !important;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 20px !important;
+}
+
+.Defaultmsgcheckboxlabel {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex !important;
+  align-items: center;
+  color: #222222;
+  padding-right: 34px;
+}
+
+.DefaultMsgTextBoxLabel {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #222222;
+  justify-content: flex-end;
+  text-align: center !important;
+  padding-right: 5px;
+}
+
+.DefaultMsgTextBox {
+  width: 100% !important;
+  height: 10% !important;
+  border-radius: 5px !important;
+}
+
+.DefaultMsgTextBox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.DefaultMsgTextBox .MuiOutlinedInput-input {
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+}
+
+.MsgSubBox {
+  width: 100% !important;
+}
+
+.MsgSubBox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.MsgSubBox .MuiOutlinedInput-input {
+  text-align: center;
+}
+
+.DefaultMsgSave {
+  width: 56%;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.DefaultMsgSave2 {
+  width: 56%;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.restoreFactorySettings {
+  width: 57.09%;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.DefaultMsgCancel {
+  width: 56%;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.DefaultMsgCancel2 {
+  width: 56%;
+  background: #FFFFFF;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.gh {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.DefaultMsgIcon {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0px 5px;
+}
+
+.Defaultmessagetext {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+
+  text-align: center;
+  color: #222222;
+  justify-content: end;
+  padding-right: 5px;
+}
+
+.DefaultMsgSelector {
+  width: 100%;
+  background: #FFFFFF;
+  /* border: 1px solid #033733; */
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  height: 100%;
+}
+
+.Defaultmessagetext2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+  margin-right: 4.9% !important;
+}
+
+/* .xxx{
+  display: flex;
+  justify-content: space-between;
+} */
+.trainNoDropDwn {
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 20.815%;
+  height: 40px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 1.768% 0px !important;
+}
+
+.trainNo_dataEntry {
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  width: 30%;
+}
+
+/* .displayBlock{
+  display: block;
+} */
+
+.displayNone {
+  display: none !important;
+}
+
+.trainNo_dataEntry .MuiFormHelperText-root {
+  position: absolute;
+  right: -180px;
+}
+
+.trainDataItemValue {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.trainDataItemValue .MuiInputBase-root {
+  border: 1px solid #033733;
+}
+
+.trainDataItemValue input {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  color: #222222;
+}
+
+.keyBoard {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.trainDataDropDwn {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+  height: 40px;
+  width: 77.7%;
+}
+
+.trainDataCat {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #222222;
+}
+
+.trainDataDropDwnRight {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+  width: 93.24%;
+  height: 40px;
+}
+
+.trainDataDropDwnRight2 {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+  height: 40px;
+}
+
+.trainDataDropDwnSubRight {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+  width: 30%;
+  height: 40px;
+}
+
+.trainTypeDropDwnSubRight {
+  background: #FFFFFF;
+  border: 1px solid #033733;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.intrStation .MuiFormControl-root {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.intrStationDropDwnSubRight {
+  background: #FFFFFF !important;
+  /* border: 1px solid #033733; */
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+  /* width: 100%;
+  height: 40px; */
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  color: #222222 !important;
+  display: flex !important;
+  justify-content: flex-start;
+  text-align: center;
+  text-transform: capitalize;
+  /* margin: 3.27% 0px; */
+}
+
+.intrStationDropDwnSubRight .MuiInputBase-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #222222;
+}
+
+.intrStationDropDwnSubRight .MuiSelect-select:focus {
+  background: #FFFFFF !important;
+  border-radius: 5px !important;
+}
+
+.intrStationDropDwnSubRight .MuiSvgIcon-root {
+  font-size: 1.5em !important;
+  right: 0;
+}
+
+.daysNameHed {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  padding-right: 2.812%;
+}
+
+.daysName {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  padding-right: 2.32%;
+}
+
+.daysName label {
+  margin: 0px !important;
+}
+
+.daysName label .MuiTypography-root {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+  margin-top: 6%;
+}
+
+.DefaultMsgSelector {
+  width: 88%;
+  background: #FFFFFF;
+  /* border: 1px solid #033733; */
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.Defaultmessagetext2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+  margin-right: 4.9% !important;
+}
+
+.webConfigGridStyle {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 100%
+}
+
+.webConfigGridStyle2 {
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+  height: 100%;
+  display: grid;
+}
+
+.webConfig {
+  padding: 30px;
+}
+
+.WebConfigText1 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  color: #222222;
+}
+
+.WebConfigText2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  color: #222222;
+}
+
+.WebConfigCheckBox {
+  display: flex !important;
+  justify-content: flex-start;
+}
+
+.WebConfigCheckBox .MuiButtonBase-root {
+  margin-left: 10px !important;
+}
+
+.WebConfigCheckBox .MuiTypography-root {
+  align-self: end;
+}
+
+.WebConfigCheckBoxLable {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  color: #222222;
+}
+
+.daysNameItem {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+
+.secondCard {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+  margin-top: 1%;
+  padding: 10px;
+
+}
+
+.northend {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+}
+
+.frontBackEnd {
+  background: #FFFFFF;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 2.768% 0px !important;
+  width: 112px;
+}
+
+.frontBackEnd .MuiInputBase-root {
+  width: 100%;
+}
+
+/* .MuiSelect-outlined.MuiSelect-outlined {
+  border: 1px solid #222222;
+} */
+
+.frontBackEnd input {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.coachDetailBox {
+  width: 7%;
+  padding: 5px;
+}
+
+.coachDetail {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  background: #FFFFFF;
+  border: 1px solid #033733 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  /* width: 5.612%; */
+  height: 30px;
+  /* margin-left: 1.326%; */
+}
+
+.coachDetail {
+  width: 94%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.coachNameNo {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.trainDataEntrySave {
+  background: #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  margin-top: 10px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex !important;
+  margin-left: auto !important;
+  align-items: center !important;
+  text-transform: uppercase !important;
+  color: #FFFFFF !important;
+  width: 9.9%;
+  margin-right: 25px !important;
+}
+
+.trainDataEntrySaveBtn {
+  background: #009688 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex !important;
+  /* margin-right: auto !important; */
+  align-items: center !important;
+  text-transform: uppercase !important;
+  color: #FFFFFF !important;
+  width: 9.9%;
+  margin-right: 25px !important;
+}
+
+.trainDataEntrySaveBtn span {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-transform: uppercase !important;
+  color: #FFFFFF !important;
+}
+
+.trainDataEntryCancelBtn {
+  background: #FFFFFF !important;
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+  border: 1px solid #009688 !important;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.trainDataEntryCancelBtn span {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.pr-10 {
+  padding-right: 10px !important;
+}
+
+.mr-79 {
+  margin-right: 7.9px;
+}
+
+.gridStyle2 {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 100%;
+  display: grid;
+}
+
+.DefaultMesgCard {
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.messagetext1 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+
+}
+
+.messagetext2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex;
+  align-items: center;
+  color: #222222;
+}
+
+.KeyboardCodeEntry {
+  font-size: 2.8em !important;
+  padding-top: 95%;
+  margin-left: 150%;
+  color: #033733;
+
+}
+
+.DefaultMesgSubTextBoxLabel {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 16px;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+
+}
+
+.DefaultMesgSubdivStyle {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* 
+.DefaultMesgSubTextBox {
+  width: 90%;
+} */
+
+.DefaultMesgSubGridstyle {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.DefaultMesgSubTextBox .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.DefaultMesgSubTextBox .MuiOutlinedInput-input {
+  text-align: center;
+  font-size: 14px !important;
+  font-family: Roboto !important;
+}
+
+.displayIntensityGrid {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+.htextField {
+  background: #FFFFFF;
+  /* border: 1px solid #033733 !important; */
+  border-radius: 5px;
+}
+
+.boardTypeBoxLabel {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  padding-right: 5px;
+}
+
+.displayBoard {
+  padding: 15px;
+  border: 1px solid #DDDDDD;
+}
+
+.displayIntensityGrid2 {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+.enableDisableCardStyle {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  display: grid;
+}
+
+.enableDisableGridStyle {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+.stationCodeIcon {
+  padding-left: 10px !important;
+  font-size: 14px !important;
+  font-family: Roboto !important;
+}
+
+.stationCodeIconStyle {
+  font-size: 18px !important;
+  color: gray;
+}
+
+.trainEntryModalStyle {
+  padding: 2.5% 2.8% 1.5% 2.8%;
+  background: #FBFBFB;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  min-height: 50vh;
+  width: 65.25%;
+  position: static;
+  outline: none;
+  background-color: #FBFBFB !important;
+}
+
+.trainEntryModaltext1 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  line-height: 33px !important;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #222222;
+  /* padding-bottom: 10px; */
+}
+
+.trainEntryModaltext2 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  /* padding-bottom: 3%; */
+}
+
+.trainEntryModaltext3 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  /* margin-bottom:2% !important ; */
+  padding-bottom: 1.3%;
+}
+
+.trainEntryModalTextBOX {
+  /* width: 83.6%; */
+  padding-bottom: 5.5% !important;
+}
+
+.trainEntryModalTextBOX .MuiOutlinedInput-root {
+  background: #E8F0FE !important;
+}
+
+.trainEntryModalTextBOX .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+  border-radius: 10px;
+}
+
+.trainEntryModalTextBOX .MuiOutlinedInput-input {
+  text-align: start;
+  font-size: 18px !important;
+  font-family: Roboto !important;
+  padding: 8px 10px !important
+}
+
+.trainEntryModaltext4 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  padding-bottom: 1.3%;
+}
+
+.trainEntryModalGrid2 {
+  display: flex;
+  justify-content: center;
+}
+
+.TrainEntryModalLoginBtn {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* margin-right: 30px !important */
+}
+
+.TrainEntryModalCancelBtn {
+  width: 18%;
+  height: 30px;
+  border: 1px solid #009688 !important;
+  font-family: roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+  background: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.TrainEntryModalGrid3 {
+  display: flex;
+  justify-content: center;
+}
+
+.trainEntryModaltext5 {
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase !important;
+  color: #222222;
+  justify-content: end;
+  float: right !important;
+}
+
+
+input {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.m-10 {
+  margin: 10px !important;
+}
+
+.intrStation .intrStationDropDwnSubRight {
+  border: 0px !important;
+  color: #22222254 !important;
+}
+
+.onlineTrainDataDetails .Mui-disabled {
+  opacity: 0.9 !important;
+  cursor: not-allowed !important;
+  border: 0px solid rgba(0, 0, 0, 0.26) !important;
+}
+
+select.onlineTrainDataDetails {
+  opacity: 0.9 !important;
+  cursor: not-allowed;
+  border: 1px solid rgba(0, 0, 0, 0.26) !important;
+  color: #033733;
+}
+
+.onlineTrainDataDetails .MuiInputBase-root {
+  border: 0px !important;
+}
+
+.trainDataSche .MuiInputAdornment-positionEnd,
+.txtBox .MuiInputAdornment-positionEnd {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  max-height: fit-content !important;
+  margin: 0px;
+}
+
+.trainDataSche button.MuiIconButton-root {
+  width: 100%;
+  height: 40px;
+}
+
+.txtBox button.MuiIconButton-root {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #ffffff00 !important;
+  margin: 0px !important;
+}
+
+.trainDataSche .MuiSvgIcon-root,
+.txtBox .MuiSvgIcon-root {
+  display: none;
+}
+
+button:disabled {
+  opacity: 0.5 !important;
+  border: none !important;
+  outline: none !important;
+  padding: 5px 15px !important;
+  box-shadow: 0px !important;
+  border-radius: 5px !important;
+  /* margin: 10px !important; */
+  color: #ffffff !important;
+
+}
+
+.rdBtndeaultMsg {
+  color: #033733;
+  margin-right: 10px;
+}
+
+.btnSaveCancel {
+  display: grid;
+  grid-template-columns: 0.3fr .3fr;
+  grid-gap: 22px;
+  justify-content: end;
+}
+
+.btnsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: flex-end !important;
+
+}
+
+.trainDataSche {
+  /* border: 1px solid #033733 !important; */
+  border-radius: 3px;
+  width: 100%;
+}
+
+.txtBox {
+  position: relative;
+}
+
+.setUpTrainBack {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px !important;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-transform: uppercase !important;
+  color: #009688 !important;
+  margin-left: 2px !important;
+  margin-bottom: 10px !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  border: 1px solid #009688 !important;
+}
+
+.rdBtndeaultMsg {
+  color: #033733 !important;
+}
+
+.rdBtndeaultMsg.Mui-checked {
+  color: #033733 !important;
+}
+
+.setupBackicon {
+  margin-right: 3px;
+  align-items: center;
+}
+
+@media(max-width:1366px) {
+  .coachDataSlect {
+    display: flex;
+    justify-content: start;
+  }
+
+}
+
+/* @media(max-width:1280px){
+  .eselectType{
+    width: 128.43% !important;
+  }
+} */
+
+.eyecolor {
+  color: gray !important;
+}
+
+.eyesize .MuiSvgIcon-root {
+  font-size: 0.8em !important;
+}
+
+.marginrbottom {
+  margin-bottom: 1% !important;
+}
+
+.eselectType .MuiSvgIcon-root {
+  font-size: 1.5em !important;
+}
+
+.runningEntry .MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.runninghead.MuiTableCell-root {
+  padding: 0px !important;
+}
+
+.w6 {
+  width: 6%;
+}
+
+.w7 {
+  width: 7%;
+}
+
+.w8 {
+  width: 8%;
+}
+
+.w9 {
+  width: 9%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w11 {
+  width: 11%;
+}
+
+.w12 {
+  width: 12%;
+}
+
+.searchTableIcon {
+  fill: #033733 !important;
+  font-size: 2em !important;
+}
+
+.trainDataScheRep .MuiInputAdornment-positionEnd {
+  position: absolute;
+  left: -4px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  max-height: fit-content !important;
+  margin: 0px;
+}
+
+.trainDataScheRep button.MuiIconButton-root {
+  width: 100%;
+  height: 100%;
+}
+
+.trainDataScheRep .MuiSvgIcon-root,
+.txtBox .MuiSvgIcon-root {
+  display: none;
+}
+
+.trainDataScheRep {
+  border-radius: 3px
+}
+
+.runningpadding {
+  align-self: center;
+  display: flex;
+  justify-content: end;
+}
+
+@media only screen and (max-width:1280px) {
+  .coachMarg {
+    margin-top: 20px !important;
+  }
+
+  .cnacelGrid {
+    margin-top: 5px !important;
+  }
+
+  .dataMargin {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (max-width:1096px) {
+  .runningpadding {
+    padding-top: 5px !important;
+    padding-right: 5px !important;
+    align-self: flex-start !important;
+  }
+}
+
+
+/* ........... */
+
+.image-dimensions {
+  height: 66px;
+  width: 66px;
+}
+
+.input-height .MuiInputBase-input {
+  height: 1.25rem;
+}
+
+.input-height2 {
+  height: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.pr-32 {
+  padding-right: 32px;
+}
+
+.ht-30 {
+  height: 30px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.btn-font {
+  font-size: 12px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.ht-40 {
+  height: 40px;
+}
+
+.textBox-height .MuiInputBase-input {
+  height: 1.125rem;
+}
+
+.btn-Align {
+  align-self: center;
+}
+
+.DICardStyle {
+  padding: 30px;
+  border-radius: 10px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.DIContainer {
+  font-size: 14px !important;
+  margin-bottom: 48px;
+}
+
+.TSCardStyle {
+  padding: 20px;
+  border-radius: 10px !important;
+  height: 100%;
+}
+
+.marg6 {
+  margin-bottom: 6% !important;
+}
+
+.SDCardStyle {
+  padding: 20px;
+  border-radius: 10px !important;
+  height: 100%;
+  width: 99%;
+}
+
+.TSTextbox .MuiInputBase-input {
+  height: 1.25rem;
+}
+
+.SDTextbox .MuiInputBase-input {
+  height: 1.25rem;
+}
+
+.TSLa {
+  align-self: center;
+  padding-right: 0%;
+}
+
+.TSLabels {
+  align-self: center;
+  padding-right: 10px;
+}
+
+.tsBtn {
+  width: 64% !important;
+}
+
+.train-data-main-card1 {
+  width: 100%;
+  padding: 21px;
+}
+
+
+.spacing {
+  margin-bottom: 17px;
+}
+
+
+.right-spacing {
+  padding-right: 12px !important;
+}
+
+
+.align-n {
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+
+.arrowup {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.arrowdown {
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+
+.button-styling {
+  width: 44% !important;
+  height: 30px !important;
+}
+
+.text-field-border .MuiOutlinedInput-notchedOutline {
+  border-color: #033733 !important;
+}
+
+.dropDwn1 {
+  width: 80.45%;
+  height: 40px;
+}
+
+.dropDwn2 {
+  width: 96.54%;
+  height: 40px;
+}
+
+
+.w-1 {
+  width: 100px !important;
+}
+
+.button-align-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-align-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.DBTextfield-border .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #033733;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.label-alignn {
+  align-self: center !important;
+}
+
+.opti-dimensions {
+  height: 161px;
+  width: 161px;
+}
+
+.autoComplete .MuiAutocomplete-inputRoot[class*="MuiInput-root"] .MuiAutocomplete-input:first-child {
+  padding: 9px 0;
+  height: 1.5em;
+
+}
+
+.DBSCards {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rdTextbox .MuiInputBase-root {
+  width: 91%;
+  height: 121px;
+}
+
+.sdTextbox .MuiInputBase-root {
+  width: 91%;
+}
+
+.testCommandTextbox .MuiInputBase-root {
+  width: 100%;
+}
+
+.bTSelectbox .MuiInputBase-root {
+  width: 98%;
+}
+
+.tpTextbox .MuiInputBase-root {
+  width: 67%;
+}
+
+.webConfigTextField .MuiInputBase-root {
+  width: 94% !important;
+}
+
+.DITimePickers .MuiInputBase-root {
+  width: 61%;
+  height: 40px;
+}
+
+.w-27 {
+  width: 27% !important;
+}
+
+.train-data-entry-textbox .MuiInputBase-input {
+  height: 1.25rem;
+}
+
+.wd-27 {
+  width: 27.35% !important;
+}
+
+.train-data-autocomplete .MuiFormControl-root {
+  height: 40px;
+}
+
+@media only screen and (max-width : 1279px) {
+  .restoreFactorySettings {
+    width: 100%;
+  }
+}
+
+.errorDflt {
+  color: red;
+  justify-content: center;
+}
+
+.softReset {
+  padding: 0px !important;
+  border: 1px solid #009688 !important;
+  background: #009688 !important;
+  color: #ffffff !important;
+  width: 100%;
+}
+
+.fristcardimex {
+  margin-bottom: 5px;
+  height: 30vh;
+  max-height: 245px;
+  padding: 3%;
+  margin: 1%;
+}
+
+.imepoh {
+  margin-bottom: 4%;
+  font-size: 20px;
+}
+
+.alc {
+  align-items: center;
+}
+
+.h100im {
+  height: 100%;
+}
+
+.h50im {
+  height: 50%;
+}
+
+.imepohmain {
+  font-size: 20px;
+}
+
+.mainspn {
+  padding: 2%;
+}
+.fn{
+  text-align-last: left;
+  margin-bottom: 1% !important;
+}
+.alself{
+  align-self: center !important;
+}

@@ -1,0 +1,930 @@
+.MuiTable-root {
+    border-radius: 5 !important;
+}
+
+.MuiOutlinedInput-adornedEnd {
+    padding-right: 0px !important;
+}
+
+.MuiTableCell-root {
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+
+.MuiCheckbox-colorSecondary.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26) !important;
+}
+
+.bgtable {
+    background: #fff;
+    height: 71vh;
+    border-radius: 10px;
+}
+
+.bgTrainTable {
+    background: #fff;
+    height: 50vh;
+}
+
+.my-swal {
+    z-index: 10000;
+}
+
+/* .rowStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; */
+/* padding: 12px 20px; */
+/* background: #fbfbfb; */
+/* border: 1px solid #dddddd; */
+/* box-sizing: border-box; */
+/* flex: none; */
+/* order: 0; */
+/* flex-grow: 0; */
+/* margin: 0px 0px; */
+/* font-family: "Roboto" !important; */
+/* background: #033733 !important; */
+/* color: #ffffff !important; */
+/* } */
+.trainDataEntrySaveBtn {
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    width: 44%;
+    margin-right: 25px !important;
+}
+
+.txtTrainName .Mui-disabled {
+    opacity: 0.5 !important;
+
+}
+
+.txtTrainName .MuiInputBase-root {
+    border: 0px !important;
+    cursor: not-allowed !important;
+}
+
+.alternate2 {
+    cursor: pointer;
+}
+
+.alternate2:hover {
+    background-color: #0096887a !important;
+}
+
+.alternate4 {
+    cursor: default !important;
+}
+
+/* .onlineTrainTable:hover{
+    background-color: #0096887a !important;
+} */
+.alternate3 {
+    cursor: pointer !important;
+}
+
+.alternate5 {
+    cursor: text !important
+}
+
+.onlineChckBoxs {
+    color: #033733 !important;
+}
+
+.btn40per{
+    width: 40% !important;
+}
+
+.tableHeadDataFirstChild {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.tableHeadData {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.tableHeadDataLastChild {
+    width: 6.374%;
+    height: 40px;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0px 10px 0px 0px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.cardBoxShadow {
+    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.1));
+}
+
+.alt1 {
+    height: 40px;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize;
+    color: #222222 !important;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    margin: 0px 0px;
+}
+
+.selectData {
+    width: 100%;
+    height: 40px;
+    border: 0px !important;
+    text-align: center;
+    background: transparent;
+    cursor: pointer !important;
+}
+
+.selectRunStatus {
+    width: 100%;
+    height: 40px;
+    border: 0px !important;
+    text-align: start;
+    background: transparent;
+    padding-left: 8px;
+    cursor: pointer !important;
+}
+
+.selectData:focus-visible,
+.selectRunStatus:focus-visible {
+    outline: transparent;
+}
+
+.thead {
+    /* background-color: #033733; */
+    /* opacity: 0.8; */
+    /* box-sizing: border-box; */
+    /* border-radius: 10px 10px 0px 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 12px 20px; */
+    /* background: #fbfbfb; */
+    /* border: 1px solid #dddddd; */
+    /* box-sizing: border-box; */
+    flex: none;
+    /* order: 0; */
+    flex-grow: 0;
+    /* margin: 0px 0px; */
+    font-family: "Roboto" !important;
+    background: #033733 !important;
+    /* color: #ffffff !important; */
+}
+
+.tableBottom {
+    background: #009688;
+    border-radius: 0px 0px 10px 10px;
+    height: 40px;
+}
+
+.bottomHed {
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 0px solid transparent !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #FFFFFF !important;
+    padding: 10px !important;
+}
+
+.refCard {
+    text-align: center;
+    max-height: 100px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    padding: 4%;
+    height: 13vh;
+    width: 100%;
+    margin: 0% 1% 1% 1%;
+    justify-content: center;
+}
+
+.refHed {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 30px !important;
+    color: #222222 !important;
+}
+
+.refBtn {
+    width: 95%;
+    height: 100%;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+}
+
+.tddbCard {
+    /* padding: 10px 0px 11% 0px; */
+    max-height: 369px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    padding: 10px;
+    height: 45vh;
+    margin: 0% 1% 1% 1%;
+    padding: 1%;
+}
+
+.tddbHed {
+    text-align: center;
+    padding: 10px 0px;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 30px !important;
+    color: #222222 !important;
+}
+
+.tddbText {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    color: #222222 !important;
+    padding: 10px 0px;
+}
+
+.autosentchekb {
+    color: #033733 !important;
+    padding: 0px 8px 0px 8px !important
+}
+
+.cherangcss .PrivateSwitchBase-input-5 {
+    top: 2px;
+    left: 10px;
+    width: 50%;
+    cursor: inherit;
+    height: 80%;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.tddbBtn {
+    width: 100%;
+    height: 30px;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    margin: 10px 0px !important;
+}
+
+.announceCard {
+    max-height: 152px;
+    padding: 2px 0px 21.5px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+    padding: 2%;
+    margin: 0% 1% 0% 1%;
+    height: 18vh;
+    border-radius: 10px !important;
+    width: 100%;
+}
+
+.announceBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.paddAnnounce {
+    padding-left: 8.4%;
+    padding-right: 10%;
+}
+
+.selectAnnounce {
+    width: 26%;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.selectAnnounce:focus-visible {
+    outline: transparent;
+}
+
+.coachControlCard {
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    margin: 1% 1% 1% 1%;
+    height: 20vh;
+    max-height: 220px;
+}
+
+.coachControlHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coachControlBlock {
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addCoachBtn {
+    background: #009688 !important;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px !important;
+}
+
+.coachDetailCard {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    height: 20vh;
+    overflow: scroll !important;
+    width: 100%;
+    max-height: 220px;
+    margin-top: 0.3%;
+}
+
+.coachDetailHedText {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-transform: uppercase;
+    color: #222222 !important;
+    border-bottom: 0px !important;
+}
+
+.coachHedTable {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.borderTopRow {
+    border-top: 1px solid #dddddd;
+}
+
+.linkHover {
+    cursor: pointer;
+}
+
+.displayStyle {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.onlineTrainModalStyle {
+    background: #FBFBFB;
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 25%) !important;
+    border-radius: 10px !important;
+    height: 80%;
+    width: 85%;
+    position: static;
+    outline: none;
+}
+
+.modalHed {
+    background: #033733;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.modalHeading {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF !important;
+    padding-left: 38px;
+}
+
+.modalText {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF !important;
+    padding-left: 38px;
+}
+
+/* .trainEntryForm .MuiGrid-item {
+    padding: 1% !important;
+    border-radius: 0px;
+} */
+.p-0 {
+    padding: 0px !important;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px !important;
+}
+
+.pl-25 {
+    padding-left: 25px !important;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-8 {
+    padding-left: 8px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pr-25 {
+    padding-right: 25px !important;
+}
+
+.pr-22 {
+    padding-right: 22px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-8 {
+    padding-right: 8%;
+}
+
+.pr-7 {
+    padding-right: 7px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.pb-9 {
+    padding-bottom: 9px;
+}
+
+.pt-21 {
+    padding-top: 21px;
+}
+
+.pt-9 {
+    padding-top: 9px;
+}
+
+.pt-8 {
+    padding-top: 8px;
+}
+
+.pb-8 {
+    padding-bottom: 8px;
+}
+
+.pt-3 {
+    padding-top: 3px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.ml-8 {
+    margin-left: 8px !important;
+}
+
+.mr-8 {
+    margin-right: 8px !important;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.w-80 {
+    width: 5.099%;
+}
+
+.w-90 {
+    width: 5.737%;
+}
+
+.w-160 {
+    width: 10.198%;
+}
+
+.w-220 {
+    width: 14.022%;
+}
+
+.w-70 {
+    width: 10%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-90btn {
+    width: 90%;
+}
+
+.w-80btn {
+    width: 80%;
+}
+
+.displayContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px !important;
+}
+
+@media(max-width:1900px) {
+    .coachControlBlock {
+        display: block;
+        text-align: -webkit-center;
+    }
+
+    .coachNextPrev {
+        display: flex !important;
+    }
+
+    /* .addCoachBtn{
+        margin-top: 15px !important;
+    } */
+    .btnNext,
+    .btnPrev {
+        margin-top: 0px !important;
+        min-width: 38px !important;
+    }
+
+    .addCoachBtn {
+        margin-left: 0px !important;
+    }
+
+    .btnrefres {
+        min-width: 65px !important;
+        width: 50% !important;
+    }
+
+    .refBtn {
+        width: 95%;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+    .bgtable {
+        height: 71vh;
+    }
+
+    .tddbCard {
+        height: 44vh;
+    }
+
+    .announceCard {
+        height: 18vh;
+    }
+
+    .coachControlCard {
+        height: 26vh;
+    }
+
+    .coachDetailCard {
+        height: 26vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bgtable {
+        height: 71vh;
+    }
+
+    .tddbCard {
+        height: 42vh;
+    }
+
+    .announceCard {
+        height: 20vh;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .bgtable {
+        height: 50vh;
+    }
+
+    .tddbCard {
+        height: 32vh;
+    }
+
+    .announceCard {
+        height: 13vh;
+    }
+
+    .refCard {
+        height: 10vh;
+    }
+
+} */
+
+/* .body{
+    background: purple;
+} */
+@media(max-width:1366px) {}
+
+/* @media only screen and (max-width: 600px) {
+    .body{background-color:tomato;}
+ }
+@media only screen and (min-width: 600px) {
+    .body {background: green;}
+  }   
+@media only screen and (min-width: 768px) {
+    .body {background: blue;}
+  }   
+@media only screen and (min-width: 992px) {
+    .body {background: orange;}
+  } 
+@media only screen and (min-width: 1200px) {
+    .body {background: pink;}
+  } */
+
+
+
+/* Modified CSS */
+
+.train-data-main-card {
+    width: 100%;
+    padding: 21px;
+    margin: 17px;
+}
+
+
+.spacing {
+    margin-bottom: 17px;
+}
+
+.right-spacing {
+    padding-right: 12px !important;
+}
+
+
+.button-styling {
+    width: 44% !important;
+    height: 30px !important;
+}
+
+.buttonSave {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonCancel {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.arrowup {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.arrowdown {
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+.mt-21 {
+    margin-top: 21px !important;
+}
+
+.ml-10 {
+    margin-left: 10px !important;
+}
+
+.dropDwn {
+    width: 100%;
+    height: 40px;
+}
+
+.dropDwnClr {
+    color: #000000;
+}
+
+.align-n {
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+.trainDataDropDwnRight2 {
+    background: #FFFFFF;
+    border: 1px solid #033733;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #222222;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    text-transform: capitalize;
+    width: 77.7%;
+    height: 40px;
+}
+
+.iconAlignment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ht-80 {
+    height: 80px !important;
+}
+
+.clearIconStyle {
+    color: #FFFFFF;
+    margin-right: 18px;
+}
+
+.clear-icon.MuiSvgIcon-root {
+    font-size: 0.8339em !important;
+}
+
+.w-1 {
+    width: 100px !important;
+}
+
+.text-field-border .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.26) !important;
+}
+
+.text-field-height .MuiInputBase-input {
+    height: 1.429em;
+}
+
+.daysNameItem2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.trainNoStyle {
+    opacity: 0.9 !important;
+    border: 1px solid #033733 !important;
+    color: #033733;
+}
+
+.intermediateStationBorder .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.26) !important;
+}
+
+@media (max-width : 1279px) {
+
+    .trainDataDropDwnRight {
+        width: 100%;
+    }
+
+    .trainDataDropDwn {
+        width: 100%;
+    }
+
+
+}
+
+
+@media (min-width: 960px) {
+    .MuiGrid-grid-md-8 {
+        flex-grow: 0;
+        max-width: 76.666667%;
+        flex-basis: 67.666667%;
+    }
+}
+
+@media (min-width: 960px) {
+    .MuiGrid-grid-md-4 {
+        flex-grow: 0;
+        max-width: 23.333333%;
+        flex-basis: 33.333333%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .coachControlCard {
+        height: 35vh;
+        max-height: 240px;
+    }
+
+    .coachDetailCard {
+        height: 35vh;
+        max-height: 240px;
+    }
+}

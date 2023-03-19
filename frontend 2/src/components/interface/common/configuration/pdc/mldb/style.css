@@ -1,0 +1,59 @@
+.confHedPdc{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #222222;
+    margin-bottom: 15px !important;
+}
+.mldbSubHedpdc{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #222222;
+    padding-right: 20px;
+}
+.mldbGridpdc{
+    display: flex;
+    justify-content: flex-start;
+}
+.mldbGridpdc .MuiFormControl-root {
+    width: 15.058%;
+}
+.mldbGridpdc .MuiInputBase-root {
+    width: 100%;
+}
+.mldbNameValuepdc{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* width: 36.3%; */
+    border: 1px solid #033733 !important;
+    text-align: center;
+    font-family: Roboto !important;
+    font-size: 14px !important;
+}
+.mldbNameValuepdc .MuiOutlinedInput-input{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+}
+.mldbNameValuepdc .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #033733 !important
+}

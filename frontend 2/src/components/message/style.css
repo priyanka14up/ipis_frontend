@@ -1,0 +1,302 @@
+.addMessage{
+    margin: 0.5%;
+    padding: 2% 5% 5% 5%;
+    height: 50vh;
+    max-height: 50vh;
+}
+
+.errorMessage{
+    color: red;
+}
+/* .displayBoardBox{
+    width:53.83% !important;
+    height:91.3% !important;
+    background: #FFFFFF !important;
+    border: 1px solid #033733 !important;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    margin-top: 6.22% !important;
+} */
+.messageTxt{
+width:6.43%;
+font-style:normal;
+color:#222222!important;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+justify-content: flex-end;
+padding-right: 1.5%;
+
+align-items: center;
+text-transform: capitalize;
+}
+.messageBox{
+    width: 100%;
+    background: #FFFFFF;
+border: 1px solid #033733;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+
+.messageBox .MuiInputBase-input{
+    font-family: Roboto !important;
+}
+.addMessageContent{
+    font-family: Roboto !important;
+font-style: normal;
+font-weight: 300 !important;
+font-size: 12px !important;
+line-height: 14px !important;
+display: flex;
+align-items: center;
+color: #222222;
+}
+.language{
+    padding-top: 2.96%;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #222222;
+}
+.keyBoardIcon{
+    font-size: 2.8em !important;
+    padding-left: 5.65%;
+    color: #033733;
+}
+
+.checkboxMessage{
+    padding-top: 3%;
+}
+.addCheckbox{
+    padding-left: 10%;
+}
+.addMessageBtn{
+    display: flex !important;
+flex-direction: row !important;
+justify-content: center !important;
+align-items: center !important;
+
+
+background: #009688 !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 5px !important;
+}
+
+.displaySelectedBtn{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 11.5vw;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 5px !important;
+    height: 40px;
+      
+}
+.displaySelectedBtn2{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 240px;
+    background: #009688 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 5px !important;
+    height: 40px;
+    color: white !important;
+    margin-left: 10%;
+      
+}
+.messageTable{
+    max-height: 20vh;
+}
+.displaySelectedBtn .i{
+color: #FFFFFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+height: 100%;
+width: 100%;
+}
+.messageCanclebutton{
+font-family: Roboto !important;
+font-style: normal;
+align-items: center !important;
+text-transform: uppercase;
+color: #009688 !important;
+margin-right: 1% !important;
+height: 4vh;
+}
+.messageCheckbox{
+    color: #033733 !important;
+}
+.addMessageBtn .i{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.fontSize14pxCss{
+    font-size: 14px !important;
+}   
+.editIconeMessageCss{
+    color: grey;
+    padding: 1px;
+    width: 1rem !important;
+    height: 1rem !important;
+}
+.messageEditIconeCss{
+    padding-left: 10px;
+    font-family: Roboto;
+}
+.deleteIconeButtoneCss{
+    font-size: 14px !important;
+    padding-left: 10px !important;
+}
+.cancelDisplayButtonCss{
+    margin-top: 1%;
+}
+.deleteIconecss{
+    color: grey;
+    padding: 1px;
+    width: 1rem !important;
+    height: 1rem !important;
+}
+.deleteIconeSpanCss{
+    padding-left: 10px;
+    font-family: Roboto;
+}
+.redColor{
+    color: red !important;
+}
+.marginTop3Css{
+    margin-top: 3%;
+}
+.marginTop2Css{
+    margin-top: 2%;
+}
+.cancelSubmitCss{
+    justify-content: flex-end;
+    padding-top: 2.11%;
+    padding-bottom: 2.11%;
+    padding-right: 6%
+}
+.marginTop10{
+    margin-top: 10px !important;
+}
+.loadingCss{
+    text-align: center;
+    height: 100vh;
+    padding-top: 10%
+}
+.btnRecorder{
+    display: flex;
+    justify-content: space-around;
+}
+.saveRecorder{
+    display: grid !important;
+    grid-template-columns: 0.6fr 2fr 1.20fr !important;
+    align-items: center;
+    margin-top: 15px;
+}
+.messgetable{
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+      height: 20vh;
+}
+.msgNodta{
+    padding:5% !important;
+    text-align: center !important;
+    color: red !important;
+    border-bottom: 0px !important;
+}
+@media(max-width:1899px){
+    .saveRecorder{
+        display: grid !important;
+        grid-template-columns: 0.6fr 1fr 2fr !important;
+    }
+    .btnsavRecorder{
+        width: 40% !important;
+    }
+}
+.sideGridMaincard{
+    height: 70vh;
+    max-height: 100vh;
+    padding: 5%;
+    margin: 1.5%;
+}
+.fontSize16{
+    font-size: 16px !important;
+}
+.fontSize14{
+    font-size: 14px !important;
+}
+.side2Card{
+    padding: 30px 50px 30px 50px;
+}
+.sideLableText{
+    text-align: center;
+    align-self:center;
+    color: #222222;
+}
+.sideLableBox{
+    background-color: white;
+    text-align-last:center;
+    width: 200px;
+    border-radius: 5%;
+    text-align: center;
+    height: 40px;
+}
+.sideLableText2{
+text-align: center;
+align-self:center;
+color: #222222;
+}
+.marginTop5{
+    margin-top: 5%;
+}
+.marginTopMes{
+    margin-top: 2%;
+}
+.marginTopMes2{
+    margin-top: 1%;
+}
+.mesTextLable{
+    font-size: 14px;
+    align-self:center;
+    text-align: left;
+    padding-right: 2%;
+}
+.tableCardPadding{
+    padding: 2%;
+    margin: 0% 0.5% 0.5% 0.5%;
+}
+.MainContainer .mainCard{
+    top: 200px;
+}
+.messBtn-W{
+    color: #009688 !important;
+    max-width: 7vw;
+    width:120px;
+    height: 40px;
+    margin-right: 4% !important;
+}
+.textWidth{
+    text-align: end !important;
+}
+.textalignlastSt{
+    text-align-last: end;
+    padding-right: 1% !important;
+}
